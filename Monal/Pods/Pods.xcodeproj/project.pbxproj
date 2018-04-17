@@ -34,6 +34,7 @@
 		1315DC6A05D48CA5516F55408794C47F /* DBAuthHelperOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D41EA1B3007ADAD258277C338B26BC /* DBAuthHelperOSX.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		138315FD2E2F901556A4FCCD48AEC4C8 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5B0BDEDAD05B68E81EFCCE47B8E6A /* UIImageView+WebCache.m */; };
 		14067B61D4A8735FB477A8D7DCE56173 /* CWStatusBarNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9ABA16729C66F436F4CC3007F5384F /* CWStatusBarNotification-dummy.m */; };
+		155B4166375606BA9A03B3905A1CF038 /* Pods-Monal-OSXTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F32571D85F71A6EEBFF397B7B1029B03 /* Pods-Monal-OSXTests-dummy.m */; };
 		15635B5B1040846208F072EE1F72FCF0 /* MWTapDetectingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 374888F7EFF296A15216ED08B011F2C3 /* MWTapDetectingImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		15C3106E4606ADA53D431750CD8A7FFA /* NSDictionary+Dropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F7A1CB8084D1BF1458FA82E5ABD317 /* NSDictionary+Dropbox.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1699A0228511C84084D11FB72B1A6D14 /* ImageError.png in Resources */ = {isa = PBXBuildFile; fileRef = 083BBA64C5782EE38C16FC9D657D8F90 /* ImageError.png */; };
@@ -82,7 +83,6 @@
 		37A0F148C69AC174FEA1851D3EFDCC5A /* UIBarButtonItemArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = EB090DF0CD4CD79E54F7E5A5AD8E84D0 /* UIBarButtonItemArrowLeft.png */; };
 		38B32218A5D09A717DC26BE1EA6F7DB6 /* SDWebImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF2956F7626E9949464F241D6295FDF /* SDWebImageFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		38D635F55C628846B8D96A8BFC415F40 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2DEC9D21793E2C081AB46AA33EE6FD /* UIButton+WebCache.m */; };
-		39EC0C87A632FACA2A304A0A76DFA334 /* Pods-Monal-OSXTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F32571D85F71A6EEBFF397B7B1029B03 /* Pods-Monal-OSXTests-dummy.m */; };
 		3AFB26264245F0E3C2B1BA9CF62B6BB3 /* UIImage+MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53564D2370A365A31D87EA1EA50B8715 /* UIImage+MWPhotoBrowser.m */; };
 		3C6479A84224B0AE54D8A354A4FC96B7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2B0C3DFB726ADB2E26137DD2C0FDCA /* AssetsLibrary.framework */; };
 		4082FB0508A7CE1FF7FEEC06F31ACE87 /* MWCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA07C6A6211E8BC351EC6CBDC99832A7 /* MWCaptionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -100,6 +100,7 @@
 		4AB35CE1674533B690B438A83935E1CD /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF70281B388060512490B23EBB0FA58 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4ADF3DF0D95AFC5871051244193A7B4F /* MPOAuthURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DFFAAD0DF79ECB37CF89862D62DB82 /* MPOAuthURLResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4C766136C7CFAE169BA900F811F2ECC2 /* Pods-jrtplib-static-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3F46AD4B8DC6D82795D33BDA7DF2 /* Pods-jrtplib-static-dummy.m */; };
+		4D6736C2A071449D8B9D9242FFAB49B4 /* Pods-Monal Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7036EA2C5F8376F2F31839FFAE084 /* Pods-Monal Tests-dummy.m */; };
 		4D886A195A967B1876F73AC99064CA24 /* DBLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2D6A4B8B8C0E172209E7472566B7AD /* DBLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4DD034DB3D326601376B5D9C2FC9948A /* MWPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 34190E879DF41C7E60903C712E993C72 /* MWPhoto.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4E28DF5359DB060A0C24D7F2E53103D2 /* DBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3897D6CDD54F9220F67ED3056ECFEEC1 /* DBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -112,6 +113,7 @@
 		601A0D1990AF2A6FC3A653247D54E4A5 /* MPOAuthParameterFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9FA07FE62137018A39E8DE0453D83F /* MPOAuthParameterFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		60306FA651659F88FDE5AE7EFA9F56CA /* Pods-Monal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE349200DA3F877949ED61A7E2A9E0 /* Pods-Monal-dummy.m */; };
 		6073F6B82A2FD54789723918EE18D8C5 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = E334103E0797614417CA846A295F7888 /* UIImage+ForceDecode.m */; };
+		60EF95345B5433CCE16C53BDD385A112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF908572C1DCD7C13A748596465BC935 /* Foundation.framework */; };
 		61F5090620884E7FA33909536BEE8A22 /* VideoOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 35444896945602DB40F31A431204A00C /* VideoOverlay.png */; };
 		620E93CC5848292434B9FB7F83EFC1CA /* MPURLRequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D0AFC7D233EE30151C1CBF1250185F /* MPURLRequestParameter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		624DE52A37CAEED0B364B4912ABFA981 /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B108DB5453B2D5E0DDC0FCC9C494A29 /* TPCircularBuffer+AudioBufferList.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -136,7 +138,6 @@
 		7338F5A3C3DD9CD9480EEFE0C309AC02 /* MWCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8286E37248F41BC5FFB249C217D5EA43 /* MWCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		73C6C6902D4EA4CE047A6D8AE7DE3021 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E148CD4DB0048C5AEF5C1C94B9489D /* DACircularProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		74702679AE0887943D8A28C090ABEE8B /* ImageSelectedSmallOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E1B9F85BB4E052ADFA04679F055DDF /* ImageSelectedSmallOn@3x.png */; };
-		7503358F7B03B18A4F01388DF8458885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF908572C1DCD7C13A748596465BC935 /* Foundation.framework */; };
 		76CCED48336297EEE59AA19925A595E4 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E83431B664448E5D38FB80F6B4E01314 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		78AF48446C6EF97947D34E7DB95116D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF908572C1DCD7C13A748596465BC935 /* Foundation.framework */; };
 		7AB76D582441E5A0D85C9AAF35CA74B5 /* NSURLResponse+Encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = F3364F3650E1C0A1AE824C46DFD56795 /* NSURLResponse+Encoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -178,7 +179,7 @@
 		99A8D3E318015EC78355A8F3E13E9A00 /* MPOAuthConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C65937E1E9157002206A80237232FFB5 /* MPOAuthConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		99E6D63C6D47C51487E98972A401CE0E /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDB5D89B97640D5CFF85D1A8EAA8218 /* UIView+WebCacheOperation.m */; };
 		9DDDD8CF99D366B64137A48A690CABC9 /* UIImage+MWPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C2768E5FBE734D29573919C6558FB4 /* UIImage+MWPhotoBrowser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A6AA03C1F5B4164691BBC4CAE60ECC6C /* Pods-Monal Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D7036EA2C5F8376F2F31839FFAE084 /* Pods-Monal Tests-dummy.m */; };
+		9DEB6BBFB977BFDFF994BD4FE64F4DA6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD49197B7C911B77CF41AEDEAC2BA38 /* Cocoa.framework */; };
 		A72AD62AF7BBA08166B001AB8420B049 /* DBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 00959B217C1B634FDE9325939A82034E /* DBRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A7DC82B1C42DD03727EAFCF03BFBF78F /* UIBarButtonItemGrid.png in Resources */ = {isa = PBXBuildFile; fileRef = C2927176196F1D73C7254B4D1F909767 /* UIBarButtonItemGrid.png */; };
 		A861E55CF74CEF28B33658DF5597F49A /* ImageSelectedSmallOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E9B75C78458B64D7577C6C0005207F /* ImageSelectedSmallOn.png */; };
@@ -224,7 +225,6 @@
 		E25575B4B62E81C2A987E5B0DAFC4926 /* SDWebImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C411208B7F3ACD813EA7847F734F54F /* SDWebImageCodersManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E256EA58D7BF8F4AE259178B8FD04255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF908572C1DCD7C13A748596465BC935 /* Foundation.framework */; };
 		E3FE6486EBCECC16338136206ECE82B7 /* PlayButtonOverlayLargeTap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFDDA628614F2E54BC2ACB1453D7D02 /* PlayButtonOverlayLargeTap@2x.png */; };
-		E45CE7F0FC792BC40B94200EE2B2845D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD49197B7C911B77CF41AEDEAC2BA38 /* Cocoa.framework */; };
 		E4E3EF1627F2C247B8C3E32CA1B08038 /* SDWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1131A92A478EEAF6B2D139842916BD00 /* SDWebImageCoder.m */; };
 		E591DBC9A2D1536A231F8E37367021D4 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A61CEDC25D630B5B58E83739C7A03A2 /* JSON.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E5EC77DD98B3B7E360B802907CCA67E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF908572C1DCD7C13A748596465BC935 /* Foundation.framework */; };
@@ -265,6 +265,13 @@
 			remoteGlobalIDString = 0185959BD52CB3B713FB501B12B56634;
 			remoteInfo = CWStatusBarNotification;
 		};
+		28E5C466A077D354EC1466ACF9989EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9EEB648EE8BF57C7E287988B3FB17C;
+			remoteInfo = "Pods-Monal";
+		};
 		434C322EAA7C1ED00DE9DB35E31737E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -278,6 +285,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 439A09199E700F985AE24EA4A009E9D3;
 			remoteInfo = "TPCircularBuffer-iOS";
+		};
+		6C44CE4245E2BCF1E8A6DF5579756F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12B7ADA3F9233225FD8EC8F7CDC3D27;
+			remoteInfo = "Pods-Monal-OSX";
 		};
 		94BA24A914E4B6E9413A65FA42299D25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -792,6 +806,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		812CBBC92DDEAF8686001FD1C3230D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEB6BBFB977BFDFF994BD4FE64F4DA6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81B6901CD7524E39C10C647CCD9E56BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -811,14 +833,6 @@
 				BF3148311A0776E0EE61054BBA9684BF /* ImageIO.framework in Frameworks */,
 				2336E1167622ABEAB70A611020775C7D /* MediaPlayer.framework in Frameworks */,
 				26EDD43988EB45B35813A6DF79B43D4F /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		967A1BA32F7DAF18FDDFC7F9BCAEADB5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7503358F7B03B18A4F01388DF8458885 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,14 +863,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADE7B6880C76342A86C6051544EA7171 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E45CE7F0FC792BC40B94200EE2B2845D /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BAAC5D8C467029370D8FA38651E39E65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -871,6 +877,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				423866AF3E4E281FF50E891CC3399BCF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C694FD6C7BCB1E5EC760F43AA77F79DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EF95345B5433CCE16C53BDD385A112 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1792,16 +1806,17 @@
 			productReference = B21D6360B719E3C68B7CD6CAAF65797D /* libCWStatusBarNotification.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		15A52E72C422A2CC0169AC9087DBC475 /* Pods-Monal-OSXTests */ = {
+		0BC4F29D241617B9A6D74A400F27ED48 /* Pods-Monal-OSXTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 452685050C929425B17A17C21D62B6E0 /* Build configuration list for PBXNativeTarget "Pods-Monal-OSXTests" */;
+			buildConfigurationList = 2C65F629E766CC5706F03D486D4F128F /* Build configuration list for PBXNativeTarget "Pods-Monal-OSXTests" */;
 			buildPhases = (
-				E6B2EE12550DD8EFD70B2D259B51FDBB /* Sources */,
-				ADE7B6880C76342A86C6051544EA7171 /* Frameworks */,
+				0427257CED56E7AFBEF05C1EF4CC2B10 /* Sources */,
+				812CBBC92DDEAF8686001FD1C3230D79 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BC5D81BF259569887BBE792AF137F159 /* PBXTargetDependency */,
 			);
 			name = "Pods-Monal-OSXTests";
 			productName = "Pods-Monal-OSXTests";
@@ -1875,6 +1890,23 @@
 			productReference = F7E8B7CDDD5918B055D0D739E8C74C12 /* libPods-jrtplib-static.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		5BD1AE3B32940B7F85856636D3FE0842 /* Pods-Monal Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3009D0725C6713CFA83B70C5891C5D56 /* Build configuration list for PBXNativeTarget "Pods-Monal Tests" */;
+			buildPhases = (
+				A06173FC761026A735AF776B1D4796F2 /* Sources */,
+				C694FD6C7BCB1E5EC760F43AA77F79DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9A7F3911645C0AB34BD4073D70F011B /* PBXTargetDependency */,
+			);
+			name = "Pods-Monal Tests";
+			productName = "Pods-Monal Tests";
+			productReference = 068A8C477AB514D2AFC8F59975558590 /* libPods-Monal Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		624FE0C30D87B72F354DD168B162AB32 /* MWPhotoBrowser-MWPhotoBrowser */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC5BAFE6716681CEB2FD22209AF93896 /* Build configuration list for PBXNativeTarget "MWPhotoBrowser-MWPhotoBrowser" */;
@@ -1907,22 +1939,6 @@
 			name = "SAMKeychain-iOS";
 			productName = "SAMKeychain-iOS";
 			productReference = CDF0F05B927DA819BB7135F916C10301 /* libSAMKeychain-iOS.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		8BB0866348D0EDAEA78EFF49275D22B6 /* Pods-Monal Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FFD3FF52818C62FA5BD3EBC13E9A7381 /* Build configuration list for PBXNativeTarget "Pods-Monal Tests" */;
-			buildPhases = (
-				AF78A6FD6A160CD6EB62547C9C4DC53D /* Sources */,
-				967A1BA32F7DAF18FDDFC7F9BCAEADB5 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Monal Tests";
-			productName = "Pods-Monal Tests";
-			productReference = 068A8C477AB514D2AFC8F59975558590 /* libPods-Monal Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		8F6428A433C09BBC65F91C38C9C3A80C /* MBProgressHUD */ = {
@@ -2102,9 +2118,9 @@
 				5814D3DB7D5EFA00573D14440FFA2AB4 /* Pods-jrtplib-static */,
 				D0699215327630AC30891C2D1F91EF20 /* Pods-jrtplib-static-OSX */,
 				9A9EEB648EE8BF57C7E287988B3FB17C /* Pods-Monal */,
-				8BB0866348D0EDAEA78EFF49275D22B6 /* Pods-Monal Tests */,
+				5BD1AE3B32940B7F85856636D3FE0842 /* Pods-Monal Tests */,
 				B12B7ADA3F9233225FD8EC8F7CDC3D27 /* Pods-Monal-OSX */,
-				15A52E72C422A2CC0169AC9087DBC475 /* Pods-Monal-OSXTests */,
+				0BC4F29D241617B9A6D74A400F27ED48 /* Pods-Monal-OSXTests */,
 				6F2560F72D1971B03D829BA6AB1351C3 /* SAMKeychain-iOS */,
 				2C45EEF4DCAFE8EB1F16A684DB8F114A /* SAMKeychain-macOS */,
 				EDF2C5864FB87D44328AD1069E812614 /* SDWebImage */,
@@ -2158,6 +2174,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0427257CED56E7AFBEF05C1EF4CC2B10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155B4166375606BA9A03B3905A1CF038 /* Pods-Monal-OSXTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		134CF83983C3EC52F26FF9956669E707 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2264,6 +2288,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A06173FC761026A735AF776B1D4796F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6736C2A071449D8B9D9242FFAB49B4 /* Pods-Monal Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A17BB44FE8DE890F80E3D0E01347D8F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2334,22 +2366,6 @@
 				FB27450F1F8707AEE7BA81813F6FE658 /* SAMKeychain-macOS-dummy.m in Sources */,
 				1B06AB5C5A6DD160898E28FEBD5AE5EE /* SAMKeychain.m in Sources */,
 				9034A63280886EE4B01B16239D14996B /* SAMKeychainQuery.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF78A6FD6A160CD6EB62547C9C4DC53D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6AA03C1F5B4164691BBC4CAE60ECC6C /* Pods-Monal Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6B2EE12550DD8EFD70B2D259B51FDBB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39EC0C87A632FACA2A304A0A76DFA334 /* Pods-Monal-OSXTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2436,6 +2452,12 @@
 			target = 624FE0C30D87B72F354DD168B162AB32 /* MWPhotoBrowser-MWPhotoBrowser */;
 			targetProxy = E3DDD5D3B8FCB981C69DFF5010B169F6 /* PBXContainerItemProxy */;
 		};
+		BC5D81BF259569887BBE792AF137F159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Monal-OSX";
+			target = B12B7ADA3F9233225FD8EC8F7CDC3D27 /* Pods-Monal-OSX */;
+			targetProxy = 6C44CE4245E2BCF1E8A6DF5579756F98 /* PBXContainerItemProxy */;
+		};
 		C1010181241DEF31181426F24D059E62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DACircularProgress;
@@ -2460,75 +2482,16 @@
 			target = 439A09199E700F985AE24EA4A009E9D3 /* TPCircularBuffer-iOS */;
 			targetProxy = 6340B2924B4452E86301A12F89AB9FB7 /* PBXContainerItemProxy */;
 		};
+		E9A7F3911645C0AB34BD4073D70F011B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Monal";
+			target = 9A9EEB648EE8BF57C7E287988B3FB17C /* Pods-Monal */;
+			targetProxy = 28E5C466A077D354EC1466ACF9989EDD /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07B34F297F82361D16532569E8D2E99C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1131D492C8D0CEA8D783A8648462E5E2 /* Pods-Monal-OSX.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		165F3BA73AF60E904D1D11D0FDB17F4E /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A53F67F7D4C85A197E3A16FB8BFFF0D5 /* TPCircularBuffer-iOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-iOS/TPCircularBuffer-iOS-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Adhoc;
-		};
-		1680F720C128C124E7E26143BA74B15A /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6816515220A0BED6CF8DCB2E58103B8D /* Pods-Monal Tests.adhoc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Adhoc;
-		};
-		1A7B15EDE92F22B9B9F804ADF230C074 /* AppStore */ = {
+		01A94FC339906E3CB20AB46C14F9CB8E /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2560,6 +2523,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -2581,9 +2545,215 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = AppStore;
+		};
+		041DC8C972B94B70503D1D0ACDE9E0F3 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CB4BB6A683FF30E35C1B80E2CB4105 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		060CD249E36DCC57ECA3584702D0F3B5 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0DD2B7FB6AE992FA6C5205E5B546D3 /* TPCircularBuffer-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-macOS/TPCircularBuffer-macOS-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TPCircularBuffer;
+				PRODUCT_NAME = "TPCircularBuffer-macOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Adhoc;
+		};
+		0AE23B50A0D0B9448A30F525EC0161E0 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3131F6A0BBBCB78B30CD435DE2FE4E7 /* MWPhotoBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MWPhotoBrowser;
+				PRODUCT_NAME = MWPhotoBrowser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		0B1729B40B2E510146A14A75B6DB0CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3BD7367794BCC502662F93B4B87382 /* DACircularProgress.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DACircularProgress/DACircularProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DACircularProgress;
+				PRODUCT_NAME = DACircularProgress;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ED9797047F5A1418083CC53DD20E801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82685C7152D96B1F2CA53A29DC632C41 /* SAMKeychain-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-macOS/SAMKeychain-macOS-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = "SAMKeychain-macOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		1176B8FF86CD1671E62FF5201F55473A /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA9B2B285E4F447B5F80F50E6B0F678 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		12C63506A96AE8DCFC21C643F545E738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E256CCF5D475F8D6EF4F3BA030910BB0 /* Pods-jrtplib-static.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1719C8C7EBAE38A376C0040AB11915A8 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2BF51FF7BA8C06F5AA7677BB8D63985 /* Pods-Monal-OSX.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Adhoc;
+		};
+		19AE256CFC10EE8A7F80F6377ECF9EBD /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8305A1B67CBFEBD868909C520E28C7C3 /* Pods-Monal Tests.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = AppStore;
 		};
@@ -2604,7 +2774,7 @@
 			};
 			name = AppStore;
 		};
-		1CB0DC374A58EA28815D730562C09E5F /* AppStore */ = {
+		1F4AB8BA08DAD8FAC9039428CBE411DC /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B40A654CA823D83837B21EA16A5B89DE /* Dropbox-OSX-SDK.xcconfig */;
 			buildSettings = {
@@ -2619,6 +2789,8 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DropboxOSX;
+				PRODUCT_NAME = "Dropbox-OSX-SDK";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -2626,91 +2798,11 @@
 			};
 			name = AppStore;
 		};
-		1E954AA2C04DE8BCB65C277DF5C24794 /* Release */ = {
+		22E25C51A0798502B4F3847E7A16111D /* Adhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14CB4BB6A683FF30E35C1B80E2CB4105 /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = E67A98336F53B10AB20D3C24C3F5A7AC /* Pods-Monal.adhoc.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2074A9619CD9C2F14EA923BC0DA5CF81 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_ADHOC=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Adhoc;
-		};
-		2A3F169D49DF41DF6F81EC3F8631942C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D96E4252A57CD6C24AEF861E1D76E5AA /* Pods-Monal.release.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2726,9 +2818,334 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
+			name = Adhoc;
+		};
+		29D8B5F2745604B767944B597334A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0DD2B7FB6AE992FA6C5205E5B546D3 /* TPCircularBuffer-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-macOS/TPCircularBuffer-macOS-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TPCircularBuffer;
+				PRODUCT_NAME = "TPCircularBuffer-macOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		2D2003EE573E23D2CC8929847B8EDD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40A654CA823D83837B21EA16A5B89DE /* Dropbox-OSX-SDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Dropbox-OSX-SDK/Dropbox-OSX-SDK-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DropboxOSX;
+				PRODUCT_NAME = "Dropbox-OSX-SDK";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
 			name = Release;
 		};
-		2E2382881D5F8D8ED19827A420D0850E /* Debug */ = {
+		30B47D45EE178AD22BCF57658D8AD3D3 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3BD7367794BCC502662F93B4B87382 /* DACircularProgress.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DACircularProgress/DACircularProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DACircularProgress;
+				PRODUCT_NAME = DACircularProgress;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		321100A3E895A5822E174103497115C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA9B2B285E4F447B5F80F50E6B0F678 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37FE1C8413BCECD168936037C3A7171A /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CB4BB6A683FF30E35C1B80E2CB4105 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		3BA1FAFA71239DC05ABCD4A8CF48D250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3BD7367794BCC502662F93B4B87382 /* DACircularProgress.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DACircularProgress/DACircularProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DACircularProgress;
+				PRODUCT_NAME = DACircularProgress;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C185FCF971AD4A3BD6109ED48D2AEA9 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA002029F6E0491981E71228F3162498 /* CWStatusBarNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CWStatusBarNotification;
+				PRODUCT_NAME = CWStatusBarNotification;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		3DC77ADE91C97951FD1578E38E3ED87C /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EAD87EBCE8C67BDFECD6B818D3EEE24 /* Pods-Monal-OSX.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = AppStore;
+		};
+		40C7444E5F823C071E42D04E99B2C7C4 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44EFCB52C89AEEB7D85C2A510858401E /* Pods-Monal.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		4258C27CFCF589F8B4D853EDAE0F4C12 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3C2FD11616899BA28AD616B8D1FFBC /* Pods-jrtplib-static-OSX.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = AppStore;
+		};
+		478EA44CDF21C8C8A8BBFC8AD9AF8B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3131F6A0BBBCB78B30CD435DE2FE4E7 /* MWPhotoBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MWPhotoBrowser;
+				PRODUCT_NAME = MWPhotoBrowser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E672BFAD0F136F43E6B89693FB4B856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40A654CA823D83837B21EA16A5B89DE /* Dropbox-OSX-SDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Dropbox-OSX-SDK/Dropbox-OSX-SDK-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DropboxOSX;
+				PRODUCT_NAME = "Dropbox-OSX-SDK";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		4F2780EBA5F5ED11A7152A1926BC2282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6E09EF8023D2B8B848878656C3B1E2 /* Pods-jrtplib-static-OSX.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5191B427D1D51F6EE776DBF41771258E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CB4BB6A683FF30E35C1B80E2CB4105 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5300178E5E0F39B9B38858A577BDF405 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2760,6 +3177,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -2785,246 +3203,9 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		2E8F5F43B7C86FEA0A5D37F18E1181B8 /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A53F67F7D4C85A197E3A16FB8BFFF0D5 /* TPCircularBuffer-iOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-iOS/TPCircularBuffer-iOS-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AppStore;
-		};
-		310104C8356918474A9932BA186CF30E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15B702ADD260F5D4C5CBE390620860BC /* Pods-jrtplib-static.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		338418FF5C6446A5BD708B2BA83C10CE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A53F67F7D4C85A197E3A16FB8BFFF0D5 /* TPCircularBuffer-iOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-iOS/TPCircularBuffer-iOS-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		35BADEEEAF02ECAA4BC7BA4514B45D86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14CB4BB6A683FF30E35C1B80E2CB4105 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3C3B72EBC29DEFC6F4F7959DE542BFC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34117D9A22646269DFAF0B6DECEE14E2 /* Pods-jrtplib-static-OSX.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		4188B8484CE517020D43C0BD652432D3 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14CB4BB6A683FF30E35C1B80E2CB4105 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Adhoc;
-		};
-		442326F7B23DE4FCD541AC4D5D9ADCDB /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0086BFE67776C1F9733FFC081DA44F2B /* Pods-Monal-OSXTests.adhoc.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Adhoc;
-		};
-		47CF28A9896C4250D946002F1C8C471B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC69CF7117246C018EC5F410C79BCF4B /* Pods-Monal-OSX.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4C037F3DE845E3D8A0F7E590A8F64770 /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C612EA75E54400EBA6296241C8A8EFD3 /* Pods-Monal-OSXTests.appstore.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = AppStore;
-		};
-		4CFBAAE926199B270163A690564A214C /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06100850C7533EA916E7D6EBF2C9762A /* SAMKeychain-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-iOS/SAMKeychain-iOS-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AppStore;
-		};
-		521A41402B38D8884008A6DD3026ADD6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3131F6A0BBBCB78B30CD435DE2FE4E7 /* MWPhotoBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -3044,10 +3225,11 @@
 			};
 			name = Debug;
 		};
-		57AD9003FEB471557BBB76FECCF39318 /* AppStore */ = {
+		5B119010DB4F7D90D20F304ED04B1228 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8305A1B67CBFEBD868909C520E28C7C3 /* Pods-Monal Tests.appstore.xcconfig */;
+			baseConfigurationReference = 79A8C6319A8218FEF9724F07AE5D3FCA /* Pods-Monal Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -3061,56 +3243,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = AppStore;
+			name = Debug;
 		};
-		5A139E51D55B1051052B9DF9E9E501D6 /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA002029F6E0491981E71228F3162498 /* CWStatusBarNotification.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AppStore;
-		};
-		6802860C87D11C2D5524A8425D595975 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A53F67F7D4C85A197E3A16FB8BFFF0D5 /* TPCircularBuffer-iOS.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-iOS/TPCircularBuffer-iOS-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6A5C6E7ACA1003DB5092E01A52A49024 /* Adhoc */ = {
+		5C9077F6019859EB830356E047552C8B /* Adhoc */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06100850C7533EA916E7D6EBF2C9762A /* SAMKeychain-iOS.xcconfig */;
 			buildSettings = {
@@ -3123,6 +3259,8 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = "SAMKeychain-iOS";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3132,139 +3270,11 @@
 			};
 			name = Adhoc;
 		};
-		6AB3241D30EDF4800AFE290A204B6726 /* AppStore */ = {
+		7783A2CCCC141B3A775878209636A992 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82685C7152D96B1F2CA53A29DC632C41 /* SAMKeychain-macOS.xcconfig */;
+			baseConfigurationReference = 6816515220A0BED6CF8DCB2E58103B8D /* Pods-Monal Tests.adhoc.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-macOS/SAMKeychain-macOS-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = AppStore;
-		};
-		6D3400751A3B5A9019C041B4EB25D2D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96766234A0EE746A84A636D329B08FBF /* Pods-Monal-OSXTests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		71DCDD7D7C38A7D3091434B373D01D09 /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3131F6A0BBBCB78B30CD435DE2FE4E7 /* MWPhotoBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AppStore;
-		};
-		79AC01CDA4091EEB6E9970B72ED7B709 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D006CE970C289718834A0C76B97286A4 /* Pods-Monal Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7D00EB92737867EE107490618BC566BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA002029F6E0491981E71228F3162498 /* CWStatusBarNotification.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		81042FD6425E34916FFBD2DCA0C685CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06100850C7533EA916E7D6EBF2C9762A /* SAMKeychain-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-iOS/SAMKeychain-iOS-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		83B10AF9C5F95B334F5AF34B3F4CC6C6 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 715BC968B01B4423CF95EAB0B35EDFF3 /* Pods-jrtplib-static.adhoc.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -3282,430 +3292,7 @@
 			};
 			name = Adhoc;
 		};
-		83F0547368D7C5C5D73EDE882C476A60 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA002029F6E0491981E71228F3162498 /* CWStatusBarNotification.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Adhoc;
-		};
-		8499CBDF02B1D442FAAE4769B0519A2C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06100850C7533EA916E7D6EBF2C9762A /* SAMKeychain-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-iOS/SAMKeychain-iOS-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		86F4809A6406B4353F410C5E76BB095C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B0DD2B7FB6AE992FA6C5205E5B546D3 /* TPCircularBuffer-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-macOS/TPCircularBuffer-macOS-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Release;
-		};
-		873EC416E5B3AEC52845AD1407BA18F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A392CBE348D7080C061327F121FBA69 /* Pods-Monal-OSXTests.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8BD638E70831A2543E439D344D8618D9 /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89A539707BB9507622D34E54C2A1F882 /* Pods-jrtplib-static.appstore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AppStore;
-		};
-		8F24A7A992A2B961371AF4EECA709BD0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B40A654CA823D83837B21EA16A5B89DE /* Dropbox-OSX-SDK.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/Dropbox-OSX-SDK/Dropbox-OSX-SDK-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Release;
-		};
-		99AAC71A7F10FD8694D82193EFE996B2 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E67A98336F53B10AB20D3C24C3F5A7AC /* Pods-Monal.adhoc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Adhoc;
-		};
-		9B42C16ABFD63DCD39040B1EA57F0A03 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A3BD7367794BCC502662F93B4B87382 /* DACircularProgress.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/DACircularProgress/DACircularProgress-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9DD0D677655DE9AA5E2ED471FB52DACD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B0DD2B7FB6AE992FA6C5205E5B546D3 /* TPCircularBuffer-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-macOS/TPCircularBuffer-macOS-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Debug;
-		};
-		9DF71E475429FF5B18C8297061076191 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3131F6A0BBBCB78B30CD435DE2FE4E7 /* MWPhotoBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPhotoBrowser";
-				INFOPLIST_FILE = "Target Support Files/MWPhotoBrowser/ResourceBundle-MWPhotoBrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = MWPhotoBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Adhoc;
-		};
-		9F607C1E40338F77C8BF9C79EF31C1C8 /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B3C2FD11616899BA28AD616B8D1FFBC /* Pods-jrtplib-static-OSX.appstore.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = AppStore;
-		};
-		A4D326FAD7A68DA72AC1CBC893EAB7AD /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A3BD7367794BCC502662F93B4B87382 /* DACircularProgress.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/DACircularProgress/DACircularProgress-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AppStore;
-		};
-		A531FA8629F119E19CCBDF89C69496AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3131F6A0BBBCB78B30CD435DE2FE4E7 /* MWPhotoBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		AA2CDF3A8694AF90569CCB0FE7C5772D /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EAD87EBCE8C67BDFECD6B818D3EEE24 /* Pods-Monal-OSX.appstore.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = AppStore;
-		};
-		AAB239B439E074107AE66C5CBD064DFC /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B40A654CA823D83837B21EA16A5B89DE /* Dropbox-OSX-SDK.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/Dropbox-OSX-SDK/Dropbox-OSX-SDK-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Adhoc;
-		};
-		BD8D164F22282BA189741EC15B77D45E /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14CB4BB6A683FF30E35C1B80E2CB4105 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AppStore;
-		};
-		C37B5C0C4D4CF9D569DD6D84271F21F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA002029F6E0491981E71228F3162498 /* CWStatusBarNotification.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C4F9745CB867CAE50776C6D7FFE1F025 /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B0DD2B7FB6AE992FA6C5205E5B546D3 /* TPCircularBuffer-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-macOS/TPCircularBuffer-macOS-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = AppStore;
-		};
-		C58A0071E8DF55B440A23D0BFFEBE1FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82685C7152D96B1F2CA53A29DC632C41 /* SAMKeychain-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-macOS/SAMKeychain-macOS-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Release;
-		};
-		C5CC6EC946CF626926CA5973C20D14CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA9B2B285E4F447B5F80F50E6B0F678 /* SDWebImage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C65E90DA9CA5A770ECBBAA8E53C19431 /* Release */ = {
+		7977E7207C9FC6EFC372503FA740CC96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -3737,6 +3324,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -3758,107 +3346,26 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		C9B6431FFFE2B79D7137699C5B739BBA /* Debug */ = {
+		7F6C178F32FB9B89C1D2BF5F12944712 /* AppStore */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E256CCF5D475F8D6EF4F3BA030910BB0 /* Pods-jrtplib-static.debug.xcconfig */;
+			baseConfigurationReference = AA002029F6E0491981E71228F3162498 /* CWStatusBarNotification.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D893E4D4B07173D5A70965297A1DC0CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F6E09EF8023D2B8B848878656C3B1E2 /* Pods-jrtplib-static-OSX.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		DC7552015591C83D0CBC237B48ACB500 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3968DFE3EF9C0D7F4CF8E639B4994B8 /* Pods-Monal.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E2A31769B021058CCE081ADED480EE2D /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2BF51FF7BA8C06F5AA7677BB8D63985 /* Pods-Monal-OSX.adhoc.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Adhoc;
-		};
-		E3B2BAAAB39738EACFD385B5FD6E1CB8 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A3BD7367794BCC502662F93B4B87382 /* DACircularProgress.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/DACircularProgress/DACircularProgress-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CWStatusBarNotification;
+				PRODUCT_NAME = CWStatusBarNotification;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3866,9 +3373,97 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Adhoc;
+			name = AppStore;
 		};
-		E4BA64CE57D0BBDBC103552E1A5E7EC6 /* Debug */ = {
+		826B16034D42E1AC31EE2D87ECCB9B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1131D492C8D0CEA8D783A8648462E5E2 /* Pods-Monal-OSX.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		87A74549126EDFE1AC8E7BAED72F8CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B702ADD260F5D4C5CBE390620860BC /* Pods-jrtplib-static.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9269544395B6C0914A2731D637ED4980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA002029F6E0491981E71228F3162498 /* CWStatusBarNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CWStatusBarNotification;
+				PRODUCT_NAME = CWStatusBarNotification;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97AA9C6859CE684B8ADCFEE00B458541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3968DFE3EF9C0D7F4CF8E639B4994B8 /* Pods-Monal.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		981B3A3D794740C2C35CF50593D35C16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82685C7152D96B1F2CA53A29DC632C41 /* SAMKeychain-macOS.xcconfig */;
 			buildSettings = {
@@ -3882,89 +3477,30 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = "SAMKeychain-macOS";
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 			};
-			name = Debug;
+			name = Release;
 		};
-		E5293FC5B86C07D565DCA8EB6EC2DE41 /* Debug */ = {
+		9A6C7417B38FE7D8A40B1C56E5E13999 /* AppStore */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B40A654CA823D83837B21EA16A5B89DE /* Dropbox-OSX-SDK.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/Dropbox-OSX-SDK/Dropbox-OSX-SDK-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Debug;
-		};
-		E867EDCA4234514E26A5F7BA2D0A8FF0 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B0DD2B7FB6AE992FA6C5205E5B546D3 /* TPCircularBuffer-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-macOS/TPCircularBuffer-macOS-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Adhoc;
-		};
-		ED9FADF6B3543AD74D7DAB3F171FD4DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79A8C6319A8218FEF9724F07AE5D3FCA /* Pods-Monal Tests.debug.xcconfig */;
+			baseConfigurationReference = D3131F6A0BBBCB78B30CD435DE2FE4E7 /* MWPhotoBrowser.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F09F77E2AFC0DC9C65625FE4C81F29D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A3BD7367794BCC502662F93B4B87382 /* DACircularProgress.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/DACircularProgress/DACircularProgress-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MWPhotoBrowser;
+				PRODUCT_NAME = MWPhotoBrowser;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3972,12 +3508,53 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = AppStore;
 		};
-		F108CECA8A463D33643FD4CAD744EF5C /* Adhoc */ = {
+		9BF328B3B6A514B59E40D875ADED9595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3131F6A0BBBCB78B30CD435DE2FE4E7 /* MWPhotoBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MWPhotoBrowser;
+				PRODUCT_NAME = MWPhotoBrowser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DF71E475429FF5B18C8297061076191 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3131F6A0BBBCB78B30CD435DE2FE4E7 /* MWPhotoBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MWPhotoBrowser";
+				INFOPLIST_FILE = "Target Support Files/MWPhotoBrowser/ResourceBundle-MWPhotoBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MWPhotoBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Adhoc;
+		};
+		9EFB8D3F195BED1E839A5C92D7B41275 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42981B7A455B4CE51EBE91C7454E06D5 /* Pods-jrtplib-static-OSX.adhoc.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3995,10 +3572,58 @@
 			};
 			name = Adhoc;
 		};
-		F15F22DF4BA6DF151C0CF7E98E3D4DFD /* AppStore */ = {
+		A0B3F2104D67862A044581694E275B26 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44EFCB52C89AEEB7D85C2A510858401E /* Pods-Monal.appstore.xcconfig */;
+			baseConfigurationReference = D006CE970C289718834A0C76B97286A4 /* Pods-Monal Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0D0EC1E0CC611BFF7A0A85D0959CEEC /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53F67F7D4C85A197E3A16FB8BFFF0D5 /* TPCircularBuffer-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-iOS/TPCircularBuffer-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TPCircularBuffer;
+				PRODUCT_NAME = "TPCircularBuffer-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		A33883EBD35E616D5453C67D9ACB3BA0 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A539707BB9507622D34E54C2A1F882 /* Pods-jrtplib-static.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4015,6 +3640,575 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = AppStore;
+		};
+		A43C1448CCC8D0ACF452FFFC4950432C /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82685C7152D96B1F2CA53A29DC632C41 /* SAMKeychain-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-macOS/SAMKeychain-macOS-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = "SAMKeychain-macOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = AppStore;
+		};
+		A76FAF0184D532674216160AE5173A7F /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06100850C7533EA916E7D6EBF2C9762A /* SAMKeychain-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-iOS/SAMKeychain-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = "SAMKeychain-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		AA66A86FC625A5FFBFD726C8CD22CD2A /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C612EA75E54400EBA6296241C8A8EFD3 /* Pods-Monal-OSXTests.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = AppStore;
+		};
+		ACF39B67B5EB458CB858256EB8179522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC69CF7117246C018EC5F410C79BCF4B /* Pods-Monal-OSX.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD663637D5CD4497CB2D0711153B2C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A392CBE348D7080C061327F121FBA69 /* Pods-Monal-OSXTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ADBD069FD8C55839BD7E6E1349B473CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53F67F7D4C85A197E3A16FB8BFFF0D5 /* TPCircularBuffer-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-iOS/TPCircularBuffer-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TPCircularBuffer;
+				PRODUCT_NAME = "TPCircularBuffer-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B39E4593FCCD87FB579C2E97A01EEA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA9B2B285E4F447B5F80F50E6B0F678 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8764F2ACE7A554EF117C551D9ABE81A /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40A654CA823D83837B21EA16A5B89DE /* Dropbox-OSX-SDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Dropbox-OSX-SDK/Dropbox-OSX-SDK-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DropboxOSX;
+				PRODUCT_NAME = "Dropbox-OSX-SDK";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Adhoc;
+		};
+		BA97F9754E3051323BB254DD512279CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06100850C7533EA916E7D6EBF2C9762A /* SAMKeychain-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-iOS/SAMKeychain-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = "SAMKeychain-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD99A6178BBCB639EF855504BDAC8B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34117D9A22646269DFAF0B6DECEE14E2 /* Pods-jrtplib-static-OSX.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE56380D77E093862F7D2CAA4DA4ABC3 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715BC968B01B4423CF95EAB0B35EDFF3 /* Pods-jrtplib-static.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		C0CB4927FA63756BFEC329876F638B7A /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3BD7367794BCC502662F93B4B87382 /* DACircularProgress.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DACircularProgress/DACircularProgress-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DACircularProgress;
+				PRODUCT_NAME = DACircularProgress;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		C4EE2465E61095E053D7A6655A91CF4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53F67F7D4C85A197E3A16FB8BFFF0D5 /* TPCircularBuffer-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-iOS/TPCircularBuffer-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TPCircularBuffer;
+				PRODUCT_NAME = "TPCircularBuffer-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C550C318090DE60C13BB6F9853E708BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CB4BB6A683FF30E35C1B80E2CB4105 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C627398B496BB136411BAA471382920E /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53F67F7D4C85A197E3A16FB8BFFF0D5 /* TPCircularBuffer-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-iOS/TPCircularBuffer-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TPCircularBuffer;
+				PRODUCT_NAME = "TPCircularBuffer-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		D389B71F388051C475DA6E6B0D184E05 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82685C7152D96B1F2CA53A29DC632C41 /* SAMKeychain-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-macOS/SAMKeychain-macOS-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = "SAMKeychain-macOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Adhoc;
+		};
+		DBC34A2ED725FD2BFBE9ECCE50AEE003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0DD2B7FB6AE992FA6C5205E5B546D3 /* TPCircularBuffer-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-macOS/TPCircularBuffer-macOS-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TPCircularBuffer;
+				PRODUCT_NAME = "TPCircularBuffer-macOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		E02FFFCE0ECF463C7485F69ACB9251C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA002029F6E0491981E71228F3162498 /* CWStatusBarNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CWStatusBarNotification;
+				PRODUCT_NAME = CWStatusBarNotification;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E25E531B41FACB755EE6EBF4F443252F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96766234A0EE746A84A636D329B08FBF /* Pods-Monal-OSXTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E70A4DA1074C4E08BD223B64C90D29A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06100850C7533EA916E7D6EBF2C9762A /* SAMKeychain-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-iOS/SAMKeychain-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = "SAMKeychain-iOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8E2369BB59C0BA774CBDC34C9F91F5E /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0DD2B7FB6AE992FA6C5205E5B546D3 /* TPCircularBuffer-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/TPCircularBuffer-macOS/TPCircularBuffer-macOS-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TPCircularBuffer;
+				PRODUCT_NAME = "TPCircularBuffer-macOS";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = AppStore;
+		};
+		EBEF357C66B9F7A701A60F5C0683740C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96E4252A57CD6C24AEF861E1D76E5AA /* Pods-Monal.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2D06407D05A68886AEDCDD464483E5 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_ADHOC=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Adhoc;
 		};
 		F7A9ED97F3A9C6A5A301707C3CCD9D90 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4032,7 +4226,29 @@
 			};
 			name = Release;
 		};
-		F97B6C39DBFAFFD655DBA7568BE25C64 /* Adhoc */ = {
+		F7F1098DCE4AD416EF24A09B17762B11 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0086BFE67776C1F9733FFC081DA44F2B /* Pods-Monal-OSXTests.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Adhoc;
+		};
+		FDA91EF34F751117DB6B6345E6F41FC3 /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4BA9B2B285E4F447B5F80F50E6B0F678 /* SDWebImage.xcconfig */;
 			buildSettings = {
@@ -4045,50 +4261,8 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Adhoc;
-		};
-		F982AA68993A91ACA59B753530A44022 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3131F6A0BBBCB78B30CD435DE2FE4E7 /* MWPhotoBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MWPhotoBrowser/MWPhotoBrowser-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Adhoc;
-		};
-		FA2A8B3423C4FEEAAA7E2A74D4F3E0A9 /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA9B2B285E4F447B5F80F50E6B0F678 /* SDWebImage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -4098,58 +4272,16 @@
 			};
 			name = AppStore;
 		};
-		FA3EFFDD228F0302AC726DB4FF15A903 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA9B2B285E4F447B5F80F50E6B0F678 /* SDWebImage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FA56A52BF6F466492C3F5249850E12D5 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82685C7152D96B1F2CA53A29DC632C41 /* SAMKeychain-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				EXECUTABLE_PREFIX = lib;
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain-macOS/SAMKeychain-macOS-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Adhoc;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		1583E8176297BC86EAE881C1A6F11F68 /* Build configuration list for PBXNativeTarget "TPCircularBuffer-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				165F3BA73AF60E904D1D11D0FDB17F4E /* Adhoc */,
-				2E8F5F43B7C86FEA0A5D37F18E1181B8 /* AppStore */,
-				338418FF5C6446A5BD708B2BA83C10CE /* Debug */,
-				6802860C87D11C2D5524A8425D595975 /* Release */,
+				C627398B496BB136411BAA471382920E /* Adhoc */,
+				A0D0EC1E0CC611BFF7A0A85D0959CEEC /* AppStore */,
+				ADBD069FD8C55839BD7E6E1349B473CF /* Debug */,
+				C4EE2465E61095E053D7A6655A91CF4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4157,10 +4289,21 @@
 		29B905CB9800AB1D27D576C2B92107D7 /* Build configuration list for PBXNativeTarget "Dropbox-OSX-SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAB239B439E074107AE66C5CBD064DFC /* Adhoc */,
-				1CB0DC374A58EA28815D730562C09E5F /* AppStore */,
-				E5293FC5B86C07D565DCA8EB6EC2DE41 /* Debug */,
-				8F24A7A992A2B961371AF4EECA709BD0 /* Release */,
+				B8764F2ACE7A554EF117C551D9ABE81A /* Adhoc */,
+				1F4AB8BA08DAD8FAC9039428CBE411DC /* AppStore */,
+				4E672BFAD0F136F43E6B89693FB4B856 /* Debug */,
+				2D2003EE573E23D2CC8929847B8EDD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C65F629E766CC5706F03D486D4F128F /* Build configuration list for PBXNativeTarget "Pods-Monal-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F1098DCE4AD416EF24A09B17762B11 /* Adhoc */,
+				AA66A86FC625A5FFBFD726C8CD22CD2A /* AppStore */,
+				E25E531B41FACB755EE6EBF4F443252F /* Debug */,
+				AD663637D5CD4497CB2D0711153B2C78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4168,10 +4311,21 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2074A9619CD9C2F14EA923BC0DA5CF81 /* Adhoc */,
-				1A7B15EDE92F22B9B9F804ADF230C074 /* AppStore */,
-				2E2382881D5F8D8ED19827A420D0850E /* Debug */,
-				C65E90DA9CA5A770ECBBAA8E53C19431 /* Release */,
+				EF2D06407D05A68886AEDCDD464483E5 /* Adhoc */,
+				01A94FC339906E3CB20AB46C14F9CB8E /* AppStore */,
+				5300178E5E0F39B9B38858A577BDF405 /* Debug */,
+				7977E7207C9FC6EFC372503FA740CC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3009D0725C6713CFA83B70C5891C5D56 /* Build configuration list for PBXNativeTarget "Pods-Monal Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7783A2CCCC141B3A775878209636A992 /* Adhoc */,
+				19AE256CFC10EE8A7F80F6377ECF9EBD /* AppStore */,
+				5B119010DB4F7D90D20F304ED04B1228 /* Debug */,
+				A0B3F2104D67862A044581694E275B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4179,10 +4333,10 @@
 		33F38DB2F1DDB7D9D5612F9F44178CF0 /* Build configuration list for PBXNativeTarget "Pods-jrtplib-static" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83B10AF9C5F95B334F5AF34B3F4CC6C6 /* Adhoc */,
-				8BD638E70831A2543E439D344D8618D9 /* AppStore */,
-				C9B6431FFFE2B79D7137699C5B739BBA /* Debug */,
-				310104C8356918474A9932BA186CF30E /* Release */,
+				BE56380D77E093862F7D2CAA4DA4ABC3 /* Adhoc */,
+				A33883EBD35E616D5453C67D9ACB3BA0 /* AppStore */,
+				12C63506A96AE8DCFC21C643F545E738 /* Debug */,
+				87A74549126EDFE1AC8E7BAED72F8CF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4190,21 +4344,10 @@
 		44AB5C970D63D779921E6DF56BD32567 /* Build configuration list for PBXNativeTarget "DACircularProgress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3B2BAAAB39738EACFD385B5FD6E1CB8 /* Adhoc */,
-				A4D326FAD7A68DA72AC1CBC893EAB7AD /* AppStore */,
-				9B42C16ABFD63DCD39040B1EA57F0A03 /* Debug */,
-				F09F77E2AFC0DC9C65625FE4C81F29D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		452685050C929425B17A17C21D62B6E0 /* Build configuration list for PBXNativeTarget "Pods-Monal-OSXTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				442326F7B23DE4FCD541AC4D5D9ADCDB /* Adhoc */,
-				4C037F3DE845E3D8A0F7E590A8F64770 /* AppStore */,
-				6D3400751A3B5A9019C041B4EB25D2D5 /* Debug */,
-				873EC416E5B3AEC52845AD1407BA18F9 /* Release */,
+				30B47D45EE178AD22BCF57658D8AD3D3 /* Adhoc */,
+				C0CB4927FA63756BFEC329876F638B7A /* AppStore */,
+				3BA1FAFA71239DC05ABCD4A8CF48D250 /* Debug */,
+				0B1729B40B2E510146A14A75B6DB0CAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4212,10 +4355,10 @@
 		7C586314960DE6ACC8ED221E07961C78 /* Build configuration list for PBXNativeTarget "TPCircularBuffer-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E867EDCA4234514E26A5F7BA2D0A8FF0 /* Adhoc */,
-				C4F9745CB867CAE50776C6D7FFE1F025 /* AppStore */,
-				9DD0D677655DE9AA5E2ED471FB52DACD /* Debug */,
-				86F4809A6406B4353F410C5E76BB095C /* Release */,
+				060CD249E36DCC57ECA3584702D0F3B5 /* Adhoc */,
+				E8E2369BB59C0BA774CBDC34C9F91F5E /* AppStore */,
+				29D8B5F2745604B767944B597334A813 /* Debug */,
+				DBC34A2ED725FD2BFBE9ECCE50AEE003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4223,10 +4366,10 @@
 		7DE777B6FFAE2E1815F9B85B12EFEA63 /* Build configuration list for PBXNativeTarget "Pods-Monal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99AAC71A7F10FD8694D82193EFE996B2 /* Adhoc */,
-				F15F22DF4BA6DF151C0CF7E98E3D4DFD /* AppStore */,
-				DC7552015591C83D0CBC237B48ACB500 /* Debug */,
-				2A3F169D49DF41DF6F81EC3F8631942C /* Release */,
+				22E25C51A0798502B4F3847E7A16111D /* Adhoc */,
+				40C7444E5F823C071E42D04E99B2C7C4 /* AppStore */,
+				97AA9C6859CE684B8ADCFEE00B458541 /* Debug */,
+				EBEF357C66B9F7A701A60F5C0683740C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4234,10 +4377,10 @@
 		84F2428075D92A814AB19456650F9A2B /* Build configuration list for PBXNativeTarget "SAMKeychain-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A5C6E7ACA1003DB5092E01A52A49024 /* Adhoc */,
-				4CFBAAE926199B270163A690564A214C /* AppStore */,
-				8499CBDF02B1D442FAAE4769B0519A2C /* Debug */,
-				81042FD6425E34916FFBD2DCA0C685CB /* Release */,
+				5C9077F6019859EB830356E047552C8B /* Adhoc */,
+				A76FAF0184D532674216160AE5173A7F /* AppStore */,
+				E70A4DA1074C4E08BD223B64C90D29A8 /* Debug */,
+				BA97F9754E3051323BB254DD512279CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4245,10 +4388,10 @@
 		8AF7998EE48652C9F655CA3152DB4C97 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F97B6C39DBFAFFD655DBA7568BE25C64 /* Adhoc */,
-				FA2A8B3423C4FEEAAA7E2A74D4F3E0A9 /* AppStore */,
-				FA3EFFDD228F0302AC726DB4FF15A903 /* Debug */,
-				C5CC6EC946CF626926CA5973C20D14CC /* Release */,
+				1176B8FF86CD1671E62FF5201F55473A /* Adhoc */,
+				FDA91EF34F751117DB6B6345E6F41FC3 /* AppStore */,
+				321100A3E895A5822E174103497115C2 /* Debug */,
+				B39E4593FCCD87FB579C2E97A01EEA66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4256,10 +4399,10 @@
 		8DA4112A90A14A3F51BF32E37475C4E9 /* Build configuration list for PBXNativeTarget "Pods-Monal-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2A31769B021058CCE081ADED480EE2D /* Adhoc */,
-				AA2CDF3A8694AF90569CCB0FE7C5772D /* AppStore */,
-				47CF28A9896C4250D946002F1C8C471B /* Debug */,
-				07B34F297F82361D16532569E8D2E99C /* Release */,
+				1719C8C7EBAE38A376C0040AB11915A8 /* Adhoc */,
+				3DC77ADE91C97951FD1578E38E3ED87C /* AppStore */,
+				ACF39B67B5EB458CB858256EB8179522 /* Debug */,
+				826B16034D42E1AC31EE2D87ECCB9B00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4267,10 +4410,10 @@
 		953FE6B1758031CD5C619DBFC3F69285 /* Build configuration list for PBXNativeTarget "MWPhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F982AA68993A91ACA59B753530A44022 /* Adhoc */,
-				71DCDD7D7C38A7D3091434B373D01D09 /* AppStore */,
-				521A41402B38D8884008A6DD3026ADD6 /* Debug */,
-				A531FA8629F119E19CCBDF89C69496AF /* Release */,
+				0AE23B50A0D0B9448A30F525EC0161E0 /* Adhoc */,
+				9A6C7417B38FE7D8A40B1C56E5E13999 /* AppStore */,
+				9BF328B3B6A514B59E40D875ADED9595 /* Debug */,
+				478EA44CDF21C8C8A8BBFC8AD9AF8B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4278,10 +4421,10 @@
 		A21BAAA08F7B28D2D4EF9F4B7209C89D /* Build configuration list for PBXNativeTarget "SAMKeychain-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA56A52BF6F466492C3F5249850E12D5 /* Adhoc */,
-				6AB3241D30EDF4800AFE290A204B6726 /* AppStore */,
-				E4BA64CE57D0BBDBC103552E1A5E7EC6 /* Debug */,
-				C58A0071E8DF55B440A23D0BFFEBE1FD /* Release */,
+				D389B71F388051C475DA6E6B0D184E05 /* Adhoc */,
+				A43C1448CCC8D0ACF452FFFC4950432C /* AppStore */,
+				0ED9797047F5A1418083CC53DD20E801 /* Debug */,
+				981B3A3D794740C2C35CF50593D35C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4289,10 +4432,10 @@
 		A3ECE56D274F8E20DC1D02C18A3D7233 /* Build configuration list for PBXNativeTarget "Pods-jrtplib-static-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F108CECA8A463D33643FD4CAD744EF5C /* Adhoc */,
-				9F607C1E40338F77C8BF9C79EF31C1C8 /* AppStore */,
-				D893E4D4B07173D5A70965297A1DC0CC /* Debug */,
-				3C3B72EBC29DEFC6F4F7959DE542BFC0 /* Release */,
+				9EFB8D3F195BED1E839A5C92D7B41275 /* Adhoc */,
+				4258C27CFCF589F8B4D853EDAE0F4C12 /* AppStore */,
+				4F2780EBA5F5ED11A7152A1926BC2282 /* Debug */,
+				BD99A6178BBCB639EF855504BDAC8B3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4300,10 +4443,10 @@
 		B0A46165E8B1E27DA44B9C1F506F9FD1 /* Build configuration list for PBXNativeTarget "CWStatusBarNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83F0547368D7C5C5D73EDE882C476A60 /* Adhoc */,
-				5A139E51D55B1051052B9DF9E9E501D6 /* AppStore */,
-				C37B5C0C4D4CF9D569DD6D84271F21F5 /* Debug */,
-				7D00EB92737867EE107490618BC566BA /* Release */,
+				3C185FCF971AD4A3BD6109ED48D2AEA9 /* Adhoc */,
+				7F6C178F32FB9B89C1D2BF5F12944712 /* AppStore */,
+				9269544395B6C0914A2731D637ED4980 /* Debug */,
+				E02FFFCE0ECF463C7485F69ACB9251C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4322,21 +4465,10 @@
 		F48FAFDF7BB6AB4A65E8EF8B92BA23BA /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4188B8484CE517020D43C0BD652432D3 /* Adhoc */,
-				BD8D164F22282BA189741EC15B77D45E /* AppStore */,
-				35BADEEEAF02ECAA4BC7BA4514B45D86 /* Debug */,
-				1E954AA2C04DE8BCB65C277DF5C24794 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FFD3FF52818C62FA5BD3EBC13E9A7381 /* Build configuration list for PBXNativeTarget "Pods-Monal Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1680F720C128C124E7E26143BA74B15A /* Adhoc */,
-				57AD9003FEB471557BBB76FECCF39318 /* AppStore */,
-				ED9FADF6B3543AD74D7DAB3F171FD4DF /* Debug */,
-				79AC01CDA4091EEB6E9970B72ED7B709 /* Release */,
+				041DC8C972B94B70503D1D0ACDE9E0F3 /* Adhoc */,
+				37FE1C8413BCECD168936037C3A7171A /* AppStore */,
+				C550C318090DE60C13BB6F9853E708BD /* Debug */,
+				5191B427D1D51F6EE776DBF41771258E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
