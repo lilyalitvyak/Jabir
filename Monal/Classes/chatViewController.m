@@ -129,6 +129,7 @@ static const int ddLogLevel = LOG_LEVEL_ERROR;
     self.messageTable.rowHeight = UITableViewAutomaticDimension;
     self.messageTable.estimatedRowHeight=75.0f;
   
+    
 }
 
 -(void) handleForeGround {
@@ -158,8 +159,6 @@ static const int ddLogLevel = LOG_LEVEL_ERROR;
     else {
          self.navigationItem.title=_contactName;
     }
-    
-   
     
     if(self.day) {
         self.navigationItem.title=  [NSString stringWithFormat:@"%@(%@)", self.navigationItem.title, _day];
@@ -196,7 +195,6 @@ static const int ddLogLevel = LOG_LEVEL_ERROR;
     [super viewDidAppear:animated];
     [self scrollToBottom];
     [self refreshCounter];
- 
 }
 
 -(void) viewWillDisappear:(BOOL)animated

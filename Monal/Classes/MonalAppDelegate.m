@@ -42,8 +42,12 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
     [[UINavigationBar appearance] setBarTintColor:monalGreen];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setTitleTextAttributes:@{
-                                                           NSForegroundColorAttributeName: [UIColor darkGrayColor]
+                                                           NSForegroundColorAttributeName: [UIColor whiteColor],
+                                                           NSFontAttributeName: [UIFont systemFontOfSize:17.0]
                                                            }];
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(-260, 0)
+                                                         forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setTranslucent:NO];
     if (@available(iOS 11.0, *)) {
         [[UINavigationBar appearance] setPrefersLargeTitles:YES];
         [[UINavigationBar appearance] setLargeTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];

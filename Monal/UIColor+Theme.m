@@ -11,7 +11,7 @@
 @implementation UIColor (Theme)
 
 +(UIColor *) monalGreen {
-    UIColor *monalGreen =[UIColor colorWithRed:128.0/255 green:203.0/255 blue:182.0/255 alpha:1.0f];
+    UIColor *monalGreen = UIColorFromRGB(0x009688);
     return monalGreen;
 }
 
