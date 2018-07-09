@@ -9,7 +9,7 @@
 #import "MLChatViewController.h"
 #import "MLConstants.h"
 #import "DataLayer.h"
-#import "DDLog.h"
+#import "DDLogMacros.h"
 #import "MLXMPPManager.h"
 #import "MLChatViewCell.h"
 #import "MLImageManager.h"
@@ -45,7 +45,7 @@
 
 @implementation MLChatViewController 
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 
 - (void)viewDidLoad {
     [super viewDidLoad];

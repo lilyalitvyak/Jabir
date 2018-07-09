@@ -17,7 +17,7 @@
 #import "tools.h"
 
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 
 NSString *const kGtalk = @"Gtalk";
 
@@ -414,7 +414,7 @@ NSString *const kGtalk = @"Gtalk";
             case 1: {
                 if([self.accountType isEqualToString:kGtalk]){
                     MLButtonCell *buttonCell =(MLButtonCell*)[tableView dequeueReusableCellWithIdentifier:@"ButtonCell"];
-                    UIColor *monalGreen =[UIColor colorWithRed:128.0/255 green:203.0/255 blue:182.0/255 alpha:1.0f];
+                    UIColor *monalGreen =[UIColor colorNamed:@"jr-color-green"];
                     buttonCell.buttonText.textColor= monalGreen;
                     buttonCell.buttonText.text=@"Authenticate";
                     buttonCell.selectionStyle= UITableViewCellSelectionStyleNone;

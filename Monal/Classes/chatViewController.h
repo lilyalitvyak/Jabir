@@ -15,7 +15,6 @@
 #import "MLNotificationManager.h"
 #import "MLResizingTextView.h"
 
-
 @interface chatViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UITextViewDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 {
     UIView *containerView;

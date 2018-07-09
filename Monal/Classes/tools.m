@@ -93,6 +93,59 @@
 	
 }
 
++ (NSDateFormatter *)timeFormatter {
+    static NSDateFormatter *dateFormatter;
+    
+    if (!dateFormatter) {
+        dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateFormat:@"HH:mm"];
+    }
+    
+    return dateFormatter;
+}
 
++ (NSDateFormatter *)dateTimeFormatter {
+    static NSDateFormatter *dateFormatter;
+    
+    if (!dateFormatter) {
+        dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateFormat:@"dd.MM.yyyy HH:mm"];
+    }
+    
+    return dateFormatter;
+}
+
++ (NSDateFormatter *)dateFormatter {
+    static NSDateFormatter *dateFormatter;
+    
+    if (!dateFormatter) {
+        dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateFormat:@"dd.MM.yyyy"];
+    }
+    
+    return dateFormatter;
+}
+
++ (NSString*)timeOrDatetimeFromTimestamp:(NSInteger)timestamp {
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:timestamp];
+    return [[self class] timeOrDatetimeFromDate:date];
+}
+
++ (NSString*)timeOrDatetimeFromDate:(NSDate*)date {
+    NSDateFormatter *dateFormatter = [[NSCalendar currentCalendar] isDate:date inSameDayAsDate:[NSDate date]] ?
+    [[self class] timeFormatter] :
+    [[self class] dateTimeFormatter];
+    return [dateFormatter stringFromDate:date];
+}
+
++ (NSString*)dateFromDate:(NSDate*)date {
+    NSDateFormatter *dateFormatter = [[self class] dateFormatter];
+    return [dateFormatter stringFromDate:date];
+}
+
++ (NSString*)timeFromDate:(NSDate*)date {
+    NSDateFormatter *dateFormatter = [[self class] timeFormatter];
+    return [dateFormatter stringFromDate:date];
+}
 
 @end

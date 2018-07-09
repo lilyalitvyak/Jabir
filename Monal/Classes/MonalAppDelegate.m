@@ -21,7 +21,6 @@
 
 //xmpp
 #import "MLXMPPManager.h"
-#import "UIColor+Theme.h"
 
 @interface MonalAppDelegate ()
 
@@ -29,15 +28,15 @@
 
 @end
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 
 @implementation MonalAppDelegate
 
 
 -(void) setUISettings
 {
-    UIColor *monalGreen = [UIColor monalGreen];
-    UIColor *monaldarkGreen =[UIColor monaldarkGreen];
+    UIColor *monalGreen = [UIColor colorNamed:@"jr-color-green"];
+    UIColor *monaldarkGreen = [UIColor colorNamed:@"jr-color-dark-green"];
     
     [[UINavigationBar appearance] setBarTintColor:monalGreen];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
@@ -241,7 +240,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 {
     
 #ifdef  DEBUG
-    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    //[DDLog addLogger:[DDASLLogger sharedInstance]];
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     self.fileLogger = [[DDFileLogger alloc] init];
     self.fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hour rolling

@@ -94,7 +94,7 @@
     
     MLXMLNode* historyNode =[[MLXMLNode alloc] init];
     historyNode.element=@"history";
-    [historyNode.attributes setObject:@"5" forKey:@"maxstanzas"];
+    [historyNode.attributes setObject:[NSString stringWithFormat:@"%d", kMaxHistoryMessages] forKey:@"maxstanzas"];
     [xNode.children addObject:historyNode];
     
     if(password)

@@ -12,7 +12,7 @@
 #import "DataLayer.h"
 #import "MLTabBarController.h"
 
-#import "DDLog.h"
+#import "DDLogMacros.h"
 #import "DDASLLogger.h"
 #import "DDFileLogger.h"
 #import "DDTTYLogger.h"
@@ -24,7 +24,7 @@
 
 @property (nonatomic, strong) UIWindow* window;
 @property (nonatomic, strong) UINavigationController* chatNav;
-@property (nonatomic, strong) MLTabBarController* tabBarController;
+@property (nonatomic, strong) TabBarController* tabBarController;
 @property (nonatomic, strong) UISplitViewController* splitViewController;
 @property (nonatomic, strong) DDFileLogger *fileLogger;
 

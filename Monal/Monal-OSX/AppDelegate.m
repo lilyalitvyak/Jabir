@@ -19,12 +19,12 @@
 
 #import <Fabric/Fabric.h>
 #import <Crashlytics/Crashlytics.h>
-#import "DDLog.h"
+#import "DDLogMacros.h"
 #import "DataLayer.h"
 
 #import <DropboxOSX/DropboxOSX.h>
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 
 @interface AppDelegate ()
 

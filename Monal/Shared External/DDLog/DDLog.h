@@ -17,7 +17,7 @@
 
 // Enable 1.9.x legacy macros if imported directly
 #ifndef DD_LEGACY_MACROS
-    #define DD_LEGACY_MACROS 1
+    #define DD_LEGACY_MACROS 0
 #endif
 // DD_LEGACY_MACROS is checked in the file itself
 #import "DDLegacyMacros.h"

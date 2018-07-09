@@ -15,5 +15,8 @@
 +(UIImage*)  resizedImage:(UIImage *)inImage withRect: (CGRect) thumbRect;
 + (float)degreesToRadians:(float)degrees;
 + (NSString *)flattenHTML:(NSString *)html trimWhiteSpace:(BOOL)trim;
++ (NSString*)timeOrDatetimeFromDate:(NSDate*)date;
++ (NSString*)dateFromDate:(NSDate*)date;
++ (NSString*)timeFromDate:(NSDate*)date;
 
 @end
