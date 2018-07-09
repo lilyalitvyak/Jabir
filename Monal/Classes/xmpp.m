@@ -74,13 +74,15 @@ NSString *const kXMPPSuccess =@"success";
 NSString *const kXMPPPresence = @"presence";
 
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 
 @interface xmpp()
 {
     BOOL _loginStarted;
     BOOL _reconnectScheduled;
 }
+
+@property BOOL streamHasSpace;
 
 @property (nonatomic ,strong) NSDate *loginStartTimeStamp;
 
@@ -432,7 +434,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
     dispatch_source_set_event_handler(loginCancelOperation, ^{
         DDLogInfo(@"login cancel op");
         
-        _loginStarted=NO;
+        self->_loginStarted=NO;
         // try again
         if((self.accountState<kStateHasStream) && (_loggedInOnce))
         {
@@ -474,11 +476,11 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         DDLogInfo(@"login timer cancelled");
         if(self.accountState<kStateHasStream)
         {
-            if(!_reconnectScheduled)
+            if(!self->_reconnectScheduled)
             {
-                _loginStarted=NO;
+                self->_loginStarted=NO;
                 DDLogInfo(@"login client does not have stream");
-                _accountState=kStateReconnecting;
+                self->_accountState=kStateReconnecting;
                 [self reconnect];
             }
         }
@@ -505,22 +507,22 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         DDLogInfo(@"removing streams");
         
         //prevent any new read or write
-        [_iStream setDelegate:nil];
-        [_oStream setDelegate:nil];
+        [self->_iStream setDelegate:nil];
+        [self->_oStream setDelegate:nil];
         
-        [_oStream removeFromRunLoop:[NSRunLoop mainRunLoop]
+        [self->_oStream removeFromRunLoop:[NSRunLoop mainRunLoop]
                             forMode:NSDefaultRunLoopMode];
         
-        [_iStream removeFromRunLoop:[NSRunLoop mainRunLoop]
+        [self->_iStream removeFromRunLoop:[NSRunLoop mainRunLoop]
                             forMode:NSDefaultRunLoopMode];
         DDLogInfo(@"removed streams");
         
-        _inputBuffer=[[NSMutableString alloc] init];
-        _outputQueue=[[NSMutableArray alloc] init];
+        self->_inputBuffer=[[NSMutableString alloc] init];
+        self->_outputQueue=[[NSMutableArray alloc] init];
         
         @try
         {
-            [_iStream close];
+            [self->_iStream close];
         }
         @catch(id theException)
         {
@@ -529,15 +531,15 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         
         @try
         {
-            [_oStream close];
+            [self->_oStream close];
         }
         @catch(id theException)
         {
             DDLogError(@"Exception in ostream close");
         }
         
-        _iStream=nil;
-        _oStream=nil;
+        self->_iStream=nil;
+        self->_oStream=nil;
         
         
     }];
@@ -647,7 +649,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         //can be called multiple times
         
        
-        if (_loginStarted && [[NSDate date] timeIntervalSinceDate:self.loginStartTimeStamp]>10)
+        if (self->_loginStarted && [[NSDate date] timeIntervalSinceDate:self.loginStartTimeStamp]>10)
         {
             DDLogVerbose(@"reconnect called while one already in progress that took more than 10 seconds. disconnect before reconnect.");
             [self disconnectWithCompletion:^{
@@ -655,18 +657,18 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
             }];
             return; 
         }
-        else if(_loginStarted) {
+        else if(self->_loginStarted) {
             DDLogVerbose(@"reconnect called while one already in progress. Stopping.");
             return;
         }
         
-        DDLogVerbose(@"Login started is %d timestamp diff %d",_loginStarted, [[NSDate date] timeIntervalSinceDate:self.loginStartTimeStamp]);
+        DDLogVerbose(@"Login started is %d timestamp diff %f",self->_loginStarted, [[NSDate date] timeIntervalSinceDate:self.loginStartTimeStamp]);
       
         
-        _loginStarted=YES;
+        self->_loginStarted=YES;
         
         NSTimeInterval wait=scheduleWait;
-        if(!_loggedInOnce) {
+        if(!self->_loggedInOnce) {
             wait=0;
         }
 #if TARGET_OS_IPHONE
@@ -676,10 +678,10 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         {
             DDLogInfo(@"Using Push path for reconnct");
     
-            if(!_reconnectScheduled)
+            if(!self->_reconnectScheduled)
             {
-                _reconnectScheduled=YES;
-                DDLogInfo(@"Trying to connect again in %d seconds. ", wait);
+                self->_reconnectScheduled=YES;
+                DDLogInfo(@"Trying to connect again in %f seconds. ", wait);
                 dispatch_queue_t q_background = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, wait * NSEC_PER_SEC), q_background,  ^{
                     //there may be another login operation freom reachability or another timer
@@ -696,7 +698,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         __block UIBackgroundTaskIdentifier reconnectBackgroundTask = [[UIApplication sharedApplication] beginBackgroundTaskWithExpirationHandler:^(void) {
             
             if((([UIApplication sharedApplication].applicationState==UIApplicationStateBackground)
-                || ([UIApplication sharedApplication].applicationState==UIApplicationStateInactive )) && _accountState<kStateHasStream)
+                || ([UIApplication sharedApplication].applicationState==UIApplicationStateInactive )) && self->_accountState<kStateHasStream)
             {
                 //present notification
                 NSDate* theDate=[NSDate dateWithTimeIntervalSinceNow:0]; //immediate fire
@@ -705,8 +707,8 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                 UILocalNotification* alarm = [[UILocalNotification alloc] init];
                 if (alarm)
                 {
-                    if(!_hasShownAlert ) {
-                        _hasShownAlert=YES;
+                    if(!self->_hasShownAlert ) {
+                        self->_hasShownAlert=YES;
                         //scehdule info
                         alarm.fireDate = theDate;
                         alarm.timeZone = [NSTimeZone defaultTimeZone];
@@ -729,7 +731,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         }];
         
         if (reconnectBackgroundTask != UIBackgroundTaskInvalid) {
-            if(_accountState>=kStateReconnecting) {
+            if(self->_accountState>=kStateReconnecting) {
                 DDLogInfo(@" account sate >=reconencting, disconnecting first" );
                 [self disconnectWithCompletion:^{
                     [self reconnect:0];
@@ -737,9 +739,9 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                 return;
             }
             
-            if(!_reconnectScheduled)
+            if(!self->_reconnectScheduled)
             {
-                _reconnectScheduled=YES;
+                self->_reconnectScheduled=YES;
                 DDLogInfo(@"Trying to connect again in %f seconds. ", wait);
                 dispatch_queue_t q_background = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, wait * NSEC_PER_SEC), q_background,  ^{
@@ -793,7 +795,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 {
     [self.networkQueue addOperationWithBlock: ^{
         //flush buffer to ignore all prior input
-        _inputBuffer=[[NSMutableString alloc] init];
+        self->_inputBuffer=[[NSMutableString alloc] init];
         
         DDLogInfo(@" got read queue");
         
@@ -802,8 +804,8 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         [stream.attributes setObject:@"jabber:client" forKey:@"xmlns"];
         [stream.attributes setObject:@"http://etherx.jabber.org/streams" forKey:@"xmlns:stream"];
         [stream.attributes setObject:@"1.0" forKey:@"version"];
-        if(_domain)
-            [stream.attributes setObject:_domain forKey:@"to"];
+        if(self->_domain)
+            [stream.attributes setObject:self->_domain forKey:@"to"];
         [self send:stream];
     }];
 }
@@ -827,7 +829,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         if(self.pingID)
         {
             DDLogVerbose(@"ping timed out without a reply to %@",self.pingID);
-            _accountState=kStateReconnecting;
+            self->_accountState=kStateReconnecting;
             [self reconnect];
         }
         else
@@ -1064,7 +1066,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                             NSRange childPos=[_inputBuffer rangeOfString:[NSString stringWithFormat:@"<"]
                                                                  options:NSCaseInsensitiveSearch range:NSMakeRange(startpos+1, endPos.location-startpos)];
                             if((childPos.location<_inputBuffer.length) && (childPos.location!=NSNotFound)){
-                                DDLogVerbose(@"at 3.5 looks like incomplete stanza. need to get more. loc %d", childPos.location);
+                                DDLogVerbose(@"at 3.5 looks like incomplete stanza. need to get more. loc %lu", (unsigned long)childPos.location);
                                 return nil;
                                 // break;
                             }
@@ -1262,8 +1264,8 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                     
                     if(iqNode.shouldSetBind)
                     {
-                        _jid=iqNode.jid;
-                        DDLogVerbose(@"Set jid %@", _jid);
+                        self->_jid=iqNode.jid;
+                        DDLogVerbose(@"Set jid %@", self->_jid);
                         
                         if(self.supportsSM3)
                         {
@@ -1297,11 +1299,11 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                     {
                         NSString* fullname=iqNode.fullName;
                         if(!fullname) fullname= iqNode.user;
-                        [[DataLayer sharedInstance] setFullName:fullname forContact:iqNode.user andAccount:_accountNo];
+                        [[DataLayer sharedInstance] setFullName:fullname forContact:iqNode.user andAccount:self->_accountNo];
                         
                         if(iqNode.photoBinValue)
                         {
-                            [[MLImageManager sharedInstance] setIconForContact:iqNode.user andAccount:_accountNo WithData:iqNode.photoBinValue ];
+                            [[MLImageManager sharedInstance] setIconForContact:iqNode.user andAccount:self->_accountNo WithData:iqNode.photoBinValue ];
                             
                         }
                         
@@ -1309,7 +1311,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                         
                         NSDictionary* userDic=@{kusernameKey: iqNode.user,
                                                 kfullNameKey: fullname,
-                                                kaccountNoKey:_accountNo
+                                                kaccountNoKey:self->_accountNo
                                                 };
                         [[NSNotificationCenter defaultCenter] postNotificationName:kMonalContactRefresh object:self userInfo:userDic];
                         
@@ -1318,7 +1320,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                     if(iqNode.ping)
                     {
                         XMPPIQ* pong =[[XMPPIQ alloc] initWithId:iqNode.idval andType:kiqResultType];
-                        [pong setiqTo:_domain];
+                        [pong setiqTo:self->_domain];
                         [self send:pong];
                     }
                     
@@ -1403,12 +1405,12 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                         
                         if(iqNode.discoItems==YES)
                         {
-                            if(([iqNode.from isEqualToString:self.server] || [iqNode.from isEqualToString:self.domain]) && !_discoveredServices)
+                            if(([iqNode.from isEqualToString:self.server] || [iqNode.from isEqualToString:self.domain]) && !self->_discoveredServices)
                             {
                                 for (NSDictionary* item in iqNode.items)
                                 {
-                                    if(!_discoveredServices) _discoveredServices=[[NSMutableArray alloc] init];
-                                    [_discoveredServices addObject:item];
+                                    if(!self->_discoveredServices) self->_discoveredServices=[[NSMutableArray alloc] init];
+                                    [self->_discoveredServices addObject:item];
                                     
                                     if((![[item objectForKey:@"jid"] isEqualToString:self.server]  &&  ![[item objectForKey:@"jid"] isEqualToString:self.domain])) {
                                         [self discoverService:[item objectForKey:@"jid"]];
@@ -1430,11 +1432,11 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                                 
                                 if([[contact objectForKey:@"subscription"] isEqualToString:@"both"])
                                 {
-                                    [[DataLayer sharedInstance] addContact:[contact objectForKey:@"jid"]?[contact objectForKey:@"jid"]:@"" forAccount:_accountNo fullname:[contact objectForKey:@"name"]?[contact objectForKey:@"name"]:@"" nickname:[contact objectForKey:@"name"]?[contact objectForKey:@"name"]:@"" withCompletion:^(BOOL success) {
+                                    [[DataLayer sharedInstance] addContact:[contact objectForKey:@"jid"]?[contact objectForKey:@"jid"]:@"" forAccount:self->_accountNo fullname:[contact objectForKey:@"name"]?[contact objectForKey:@"name"]:@"" nickname:[contact objectForKey:@"name"]?[contact objectForKey:@"name"]:@"" withCompletion:^(BOOL success) {
                                         
                                         if(!success && ((NSString *)[contact objectForKey:@"name"]).length>0)
                                         {
-                                            [[DataLayer sharedInstance] setFullName:[contact objectForKey:@"name"]?[contact objectForKey:@"name"]:@"" forContact:[contact objectForKey:@"jid"]?[contact objectForKey:@"jid"]:@"" andAccount:_accountNo ] ;
+                                            [[DataLayer sharedInstance] setFullName:[contact objectForKey:@"name"]?[contact objectForKey:@"name"]:@"" forContact:[contact objectForKey:@"jid"]?[contact objectForKey:@"jid"]:@"" andAccount:self->_accountNo ] ;
                                         }
                                         
                                     }];
@@ -1461,12 +1463,12 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                             } else from = iqNode.from;
                             
                             NSString* fullName;
-                            fullName=[[DataLayer sharedInstance] fullName:from forAccount:_accountNo];
+                            fullName=[[DataLayer sharedInstance] fullName:from forAccount:self->_accountNo];
                             if(!fullName) fullName=from;
                             
                             NSDictionary* userDic=@{@"buddy_name":from,
                                                     @"full_name":fullName,
-                                                    kAccountID:_accountNo
+                                                    kAccountID:self->_accountNo
                                                     };
                             
                             [[NSNotificationCenter defaultCenter]
@@ -1574,7 +1576,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                                                              @"user":iqNode.user,
                                                              @"resource":iqNode.resource,
                                                              @"id": iqNode.idval,
-                                                             kAccountID:_accountNo,
+                                                             kAccountID:self->_accountNo,
                                                              kAccountName: self.fulluser
                                                              };
                                         
@@ -1592,9 +1594,9 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                     }
                     
                     
-                    if([iqNode.from isEqualToString:_conferenceServer] && iqNode.discoItems)
+                    if([iqNode.from isEqualToString:self->_conferenceServer] && iqNode.discoItems)
                     {
-                        _roomList=iqNode.items;
+                        self->_roomList=iqNode.items;
                         [[NSNotificationCenter defaultCenter]
                          postNotificationName: kMLHasRoomsNotice object: self];
                     }
@@ -1606,7 +1608,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                         {
                             
                             if(![[item objectForKey:@"subscription"] isEqualToString:@"none"]) {
-                                [[DataLayer sharedInstance] addContact:[item objectForKey:@"jid"] forAccount:_accountNo fullname:[item objectForKey:@"name"] nickname:@"" withCompletion:^(BOOL success){
+                                [[DataLayer sharedInstance] addContact:[item objectForKey:@"jid"] forAccount:self->_accountNo fullname:[item objectForKey:@"name"] nickname:@"" withCompletion:^(BOOL success){
                                     
                                     
                                 }];
@@ -1632,17 +1634,18 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                         dispatch_async(dispatch_get_main_queue(), ^{
 #if TARGET_OS_IPHONE
                             NSString* messageString = [NSString  stringWithFormat:NSLocalizedString(@"You have been invited to a conversation %@?", nil), messageNode.from ];
-                            RIButtonItem* cancelButton = [RIButtonItem itemWithLabel:NSLocalizedString(@"Cancel", nil) action:^{
-                                
-                            }];
                             
-                            RIButtonItem* yesButton = [RIButtonItem itemWithLabel:NSLocalizedString(@"Join", nil) action:^{
-                                
-                                [self joinRoom:messageNode.from withNick:@"test" andPassword:nil]; //TODO fix this
+                            [UIViewController presentAlertWithTitle:@"Chat Invite" message:messageString options:@[@"Cancel", @"Join"] completion:^(NSInteger option) {
+                                switch (option) {
+                                    case 0:
+                                        break;
+                                    case 1:
+                                        [self joinRoom:messageNode.from withNick:@"test" andPassword:nil];
+                                        break;
+                                    default:
+                                        break;
+                                }
                             }];
-                            
-                            UIAlertView* alert =[[UIAlertView alloc] initWithTitle:@"Chat Invite" message:messageString cancelButtonItem:cancelButton otherButtonItems:yesButton, nil];
-                            [alert show];
 #else
 #endif
                         });
@@ -1653,7 +1656,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                     
                     if(!recipient)
                     {
-                        recipient= _fulluser;
+                        recipient= self->_fulluser;
                     }
                     
                     if(messageNode.subject && messageNode.type==kMessageGroupChatType)
@@ -1697,7 +1700,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                             
                             
                             [[DataLayer sharedInstance] addMessageFrom:messageNode.from to:recipient
-                                                            forAccount:_accountNo withBody:body
+                                                            forAccount:self->_accountNo withBody:body
                                                           actuallyfrom:messageNode.actualFrom delivered:YES  unread:unread  serverMessageId:messageNode.idval
                                                            messageType:messageType
                                                        andOverrideDate:messageNode.delayTimeStamp withCompletion:^(BOOL success) {
@@ -1713,7 +1716,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                                                                   }
                                                                   
                                                                   [self.networkQueue addOperationWithBlock:^{
-                                                                      [[DataLayer sharedInstance] addActiveBuddies:messageNode.from forAccount:_accountNo withCompletion:nil];
+                                                                      [[DataLayer sharedInstance] addActiveBuddies:messageNode.from forAccount:self->_accountNo withCompletion:nil];
                                                                       
                                                                       
                                                                       if(messageNode.from  ) {
@@ -1732,14 +1735,14 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                                                                           if([jidParts count]>1) {
                                                                               recipient= jidParts[0];
                                                                           }
-                                                                          if(!recipient) recipient= _fulluser;
+                                                                          if(!recipient) recipient= self->_fulluser;
                                                                           
                                                                           
                                                                           NSDictionary* userDic=@{@"from":messageNode.from,
                                                                                                   @"actuallyfrom":actuallyFrom,
                                                                                                   @"messageText":body,
                                                                                                   @"to":messageNode.to?messageNode.to:recipient,
-                                                                                                  @"accountNo":_accountNo,
+                                                                                                  @"accountNo":self->_accountNo,
                                                                                                   @"showAlert":[NSNumber numberWithBool:showAlert],
                                                                                                   @"shouldRefresh":[NSNumber numberWithBool:shouldRefresh],
                                                                                                   @"messageType":messageType?messageType:kMessageTypeText,
@@ -1762,7 +1765,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                     if(messageNode.avatarData)
                     {
                         
-                        [[MLImageManager sharedInstance] setIconForContact:messageNode.actualFrom andAccount:_accountNo WithData:messageNode.avatarData];
+                        [[MLImageManager sharedInstance] setIconForContact:messageNode.actualFrom andAccount:self->_accountNo WithData:messageNode.avatarData];
                         
                     }
                     
@@ -1788,11 +1791,11 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                     
                     if(!recipient)
                     {
-                        recipient= _fulluser;
+                        recipient= self->_fulluser;
                     }
                     
                     
-                    if([presenceNode.user isEqualToString:_fulluser]) {
+                    if([presenceNode.user isEqualToString:self->_fulluser]) {
                         //ignore self
                     }
                     else {
@@ -1803,19 +1806,20 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 #if TARGET_OS_IPHONE
                                 
                                 NSString* messageString = [NSString  stringWithFormat:NSLocalizedString(@"Do you wish to allow %@ to add you to their contacts?", nil), presenceNode.from ];
-                                RIButtonItem* cancelButton = [RIButtonItem itemWithLabel:NSLocalizedString(@"No", nil) action:^{
-                                    [self rejectFromRoster:presenceNode.from];
-                                    
-                                }];
                                 
-                                RIButtonItem* yesButton = [RIButtonItem itemWithLabel:NSLocalizedString(@"Yes", nil) action:^{
-                                    [self approveToRoster:presenceNode.from];
-                                    [self addToRoster:presenceNode.from];
-                                    
+                                [UIViewController presentAlertWithTitle:@"Approve Contact" message:messageString options:@[@"No", @"Yes"] completion:^(NSInteger option) {
+                                    switch (option) {
+                                        case 0: {
+                                            [self rejectFromRoster:presenceNode.from];
+                                        } break;
+                                        case 1: {
+                                            [self approveToRoster:presenceNode.from];
+                                            [self addToRoster:presenceNode.from];
+                                        } break;
+                                        default:
+                                            break;
+                                    }
                                 }];
-                                
-                                UIAlertView* alert =[[UIAlertView alloc] initWithTitle:@"Approve Contact" message:messageString cancelButtonItem:cancelButton otherButtonItems:yesButton, nil];
-                                [alert show];
 #else
                                 [self.contactsVC showAuthRequestForContact:presenceNode.from  withCompletion:^(BOOL allowed) {
                                     
@@ -1864,7 +1868,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                             {
                                 
                                 
-                                [[DataLayer sharedInstance] addContact:presenceNode.user forAccount:_accountNo fullname:@"" nickname:@"" withCompletion:^(BOOL success) {
+                                [[DataLayer sharedInstance] addContact:presenceNode.user forAccount:self->_accountNo fullname:@"" nickname:@"" withCompletion:^(BOOL success) {
                                     if(!success)
                                     {
                                         DDLogVerbose(@"Contact already in list");
@@ -1876,16 +1880,16 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                                     
                                     DDLogVerbose(@" showing as online from presence");
                                     
-                                    [[DataLayer sharedInstance] setOnlineBuddy:presenceNode forAccount:_accountNo];
-                                    [[DataLayer sharedInstance] setBuddyState:presenceNode forAccount:_accountNo];
-                                    [[DataLayer sharedInstance] setBuddyStatus:presenceNode forAccount:_accountNo];
+                                    [[DataLayer sharedInstance] setOnlineBuddy:presenceNode forAccount:self->_accountNo];
+                                    [[DataLayer sharedInstance] setBuddyState:presenceNode forAccount:self->_accountNo];
+                                    [[DataLayer sharedInstance] setBuddyStatus:presenceNode forAccount:self->_accountNo];
                                     
                                     NSString* state=presenceNode.show;
                                     if(!state) state=@"";
                                     NSString* status=presenceNode.status;
                                     if(!status) status=@"";
                                     NSDictionary* userDic=@{kusernameKey: presenceNode.user,
-                                                            kaccountNoKey:_accountNo,
+                                                            kaccountNoKey:self->_accountNo,
                                                             kstateKey:state,
                                                             kstatusKey:status
                                                             };
@@ -1916,14 +1920,14 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                                     {
                                         //check for vcard change
                                         if(presenceNode.photoHash) {
-                                            [[DataLayer sharedInstance]  contactHash:presenceNode.user forAccount:_accountNo withCompeltion:^(NSString *iconHash) {
+                                            [[DataLayer sharedInstance]  contactHash:presenceNode.user forAccount:self->_accountNo withCompeltion:^(NSString *iconHash) {
                                                 if([presenceNode.photoHash isEqualToString:iconHash])
                                                 {
                                                     DDLogVerbose(@"photo hash is the  same");
                                                 }
                                                 else
                                                 {
-                                                    [[DataLayer sharedInstance]  setContactHash:presenceNode forAccount:_accountNo];
+                                                    [[DataLayer sharedInstance]  setContactHash:presenceNode forAccount:self->_accountNo];
                                               
                                                     [self getVCard:presenceNode.user];
                                                 }
@@ -1935,7 +1939,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                                     else
                                     {
                                         // just set and request when in foreground if needed
-                                        [[DataLayer sharedInstance]  setContactHash:presenceNode forAccount:_accountNo];
+                                        [[DataLayer sharedInstance]  setContactHash:presenceNode forAccount:self->_accountNo];
                                     }
                                 }
                                 else {
@@ -1951,9 +1955,9 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                         }
                         else if([presenceNode.type isEqualToString:kpresenceUnavailable])
                         {
-                            if ([[DataLayer sharedInstance] setOfflineBuddy:presenceNode forAccount:_accountNo] ) {
+                            if ([[DataLayer sharedInstance] setOfflineBuddy:presenceNode forAccount:self->_accountNo] ) {
                                 NSDictionary* userDic=@{kusernameKey: presenceNode.user,
-                                                        kaccountNoKey:_accountNo};
+                                                        kaccountNoKey:self->_accountNo};
                                 [self.networkQueue addOperationWithBlock: ^{
                                     
                                     [[NSNotificationCenter defaultCenter] postNotificationName:kMonalContactOfflineNotice object:self userInfo:userDic];
@@ -1991,7 +1995,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                     if(self.accountState<kStateLoggedIn )
                     {
                         
-                        if(streamNode.callStartTLS &&  _SSL)
+                        if(streamNode.callStartTLS &&  self->_SSL)
                         {
                             MLXMLNode* startTLS= [[MLXMLNode alloc] init];
                             startTLS.element=@"starttls";
@@ -2000,13 +2004,13 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                             
                         }
                         
-                        if ((_SSL && _startTLSComplete) || (!_SSL && !_startTLSComplete) || (_SSL && _oldStyleSSL))
+                        if ((self->_SSL && self->_startTLSComplete) || (!_SSL && !_startTLSComplete) || (_SSL && _oldStyleSSL))
                         {
                             //look at menchanisms presented
                             
                             if(streamNode.SASLX_OAUTH2 && self.oAuth)
                             {
-                                NSString* saslplain=[EncodingTools encodeBase64WithString: [NSString stringWithFormat:@"\0%@\0%@",  _username, self.oauthAccount.accessToken.accessToken ]];
+                                NSString* saslplain=[EncodingTools encodeBase64WithString: [NSString stringWithFormat:@"\0%@\0%@",  self->_username, self.oauthAccount.accessToken.accessToken ]];
                                 
                                 MLXMLNode* saslXML= [[MLXMLNode alloc]init];
                                 saslXML.element=@"auth";
@@ -2539,12 +2543,12 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
             }
         }]];
     }
-    
+
     [self.networkQueue addOperation:
      [NSBlockOperation blockOperationWithBlock:^{
         DDLogVerbose(@"adding to send %@", stanza.XMLString);
-        [_outputQueue addObject:stanza];
-        [self writeFromQueue];  // try to send if there is space
+        [self->_outputQueue addObject:stanza];
+        [self writeFromQueueWrapper];
     }]];
 }
 
@@ -3171,7 +3175,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         }];
         return;
     }
-    
+
     switch(eventCode)
     {
         case NSStreamEventOpenCompleted:
@@ -3183,10 +3187,10 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
         case NSStreamEventHasSpaceAvailable:
         {
             [self.networkQueue addOperationWithBlock: ^{
-                _streamHasSpace=YES;
-                
                 DDLogVerbose(@"Stream has space to write");
-                [self writeFromQueue];
+                self.streamHasSpace=YES;
+                
+                [self writeFromQueueWrapper];
             }];
             break;
         }
@@ -3316,7 +3320,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                 DDLogInfo(@"%@ Stream end encoutered.. reconnecting.", [stream class] );
                _loginStarted=NO;
                 [self disconnectWithCompletion:^{
-                    _accountState=kStateReconnecting;
+                    self->_accountState=kStateReconnecting;
                     [self reconnect:5];
                 }];
                 
@@ -3326,7 +3330,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                 //allow failure to process an oauth to be refreshed
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 5ull * NSEC_PER_SEC), dispatch_get_main_queue(),  ^{
                     DDLogInfo(@"%@ Stream end encoutered.. on oauth acct. Wait for refresh.", [stream class] );
-                    if(_accountState<kStateHasStream) {
+                    if(self->_accountState<kStateHasStream) {
                         [self disconnectWithCompletion:^{
                             [self reconnect:5];
                         }];
@@ -3346,6 +3350,28 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 }
 
 #pragma mark network I/O
+-(void)writeFromQueueWrapper {
+    
+    void(^writeFromQueue)(void) = ^{
+        @synchronized(self) {
+            [self writeFromQueue];
+        }
+    };
+    
+    if (self.streamHasSpace) {
+        DDLogVerbose(@"write instant");
+        writeFromQueue();
+    } else {
+        [self observeProperty:@"streamHasSpace" withBlock:^(__weak xmpp* self, id oldValue, id newValue) {
+            if (self.streamHasSpace) {
+                [self removeAllObservations];
+                DDLogVerbose(@"write observed");
+                writeFromQueue();
+            }
+        }];
+    }
+}
+
 -(void) writeFromQueue
 {
     if(!_streamHasSpace)
@@ -3453,7 +3479,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
                 // DDLogVerbose(@"got net read queue");
                 NSString* inputString=[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
                 if(inputString) {
-                    [_inputBuffer appendString:inputString];
+                    [self->_inputBuffer appendString:inputString];
                 }
                 else {
                     DDLogError(@"got data but not string");

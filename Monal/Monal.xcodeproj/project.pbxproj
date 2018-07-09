@@ -373,7 +373,6 @@
 		26D51CE21E2674D700141E04 /* NXOAuth2Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D51CC71E2674D700141E04 /* NXOAuth2Request.m */; };
 		26D51CE31E2674D700141E04 /* NXOAuth2Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D51CC71E2674D700141E04 /* NXOAuth2Request.m */; };
 		26D59D9020711969006F1DEE /* MLEditGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D59D8F20711969006F1DEE /* MLEditGroupViewController.m */; };
-		26D59D9320714F32006F1DEE /* UIColor+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D59D9220714F32006F1DEE /* UIColor+Theme.m */; };
 		26D89F061A890672009B147C /* MLSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D89F051A890672009B147C /* MLSwitchCell.m */; };
 		26DA16E017C302BC00D0065E /* RIButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA16DB17C302BC00D0065E /* RIButtonItem.m */; };
 		26DA16E117C302BC00D0065E /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA16DD17C302BC00D0065E /* UIActionSheet+Blocks.m */; };
@@ -395,6 +394,12 @@
 		88D1DCA3251B85B0D235B00F /* libPods-Monal-OSXTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E141DB69283EC3EA1A55B30F /* libPods-Monal-OSXTests.a */; };
 		CAAF78ACC86D0E2D59659974 /* libPods-jrtplib-static-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B878F234C6D75087415906A /* libPods-jrtplib-static-OSX.a */; };
 		CCA5CE526F2297872025AA74 /* libPods-Monal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A548DB6E50EC39897FEA6E40 /* libPods-Monal.a */; };
+		E701ACF320F1DAC6006ABD5C /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701ACF220F1DAC6006ABD5C /* UIViewController+Extensions.swift */; };
+		E7334DB420F3A55400C1F2BE /* ChatSectionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7334DB320F3A55400C1F2BE /* ChatSectionHeaderCell.m */; };
+		E79D4DB320F2FED700CA4553 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D4DB220F2FED700CA4553 /* RoundedView.swift */; };
+		E79D4DB520F30C8900CA4553 /* UIColor+Contrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79D4DB420F30C8900CA4553 /* UIColor+Contrast.swift */; };
+		E79D4DB820F31BA900CA4553 /* UIImage+ColorMask.m in Sources */ = {isa = PBXBuildFile; fileRef = E79D4DB720F31BA900CA4553 /* UIImage+ColorMask.m */; };
+		E7B6CB1B20F165B6007C7EB9 /* MLTabBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6CB1920F15A94007C7EB9 /* MLTabBarExtensions.swift */; };
 		EC748DC2933B3CC35A0C9F07 /* libPods-Monal-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ED8290F66D5A1541DD2B0B /* libPods-Monal-OSX.a */; };
 /* End PBXBuildFile section */
 
@@ -790,8 +795,6 @@
 		26D51CC91E2674D700141E04 /* OAuth2Client_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth2Client_Prefix.pch; sourceTree = "<group>"; };
 		26D59D8E20711969006F1DEE /* MLEditGroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLEditGroupViewController.h; sourceTree = "<group>"; };
 		26D59D8F20711969006F1DEE /* MLEditGroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLEditGroupViewController.m; sourceTree = "<group>"; };
-		26D59D9120714F32006F1DEE /* UIColor+Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Theme.h"; sourceTree = "<group>"; };
-		26D59D9220714F32006F1DEE /* UIColor+Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Theme.m"; sourceTree = "<group>"; };
 		26D89F041A890672009B147C /* MLSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSwitchCell.h; sourceTree = "<group>"; };
 		26D89F051A890672009B147C /* MLSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSwitchCell.m; sourceTree = "<group>"; };
 		26DA16DA17C302BC00D0065E /* RIButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIButtonItem.h; sourceTree = "<group>"; };
@@ -854,6 +857,15 @@
 		B93583E9A8D07409E6847BCE /* Pods-Monal-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monal-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Monal-OSX/Pods-Monal-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		C8C2F3F80367A8A1D3C24092 /* Pods-Monal Tests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monal Tests.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-Monal Tests/Pods-Monal Tests.adhoc.xcconfig"; sourceTree = "<group>"; };
 		E141DB69283EC3EA1A55B30F /* libPods-Monal-OSXTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Monal-OSXTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E701ACF220F1DAC6006ABD5C /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		E7334DB220F3A55400C1F2BE /* ChatSectionHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatSectionHeaderCell.h; sourceTree = "<group>"; };
+		E7334DB320F3A55400C1F2BE /* ChatSectionHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatSectionHeaderCell.m; sourceTree = "<group>"; };
+		E79D4DB220F2FED700CA4553 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoundedView.swift; path = External/RoundedView.swift; sourceTree = "<group>"; };
+		E79D4DB420F30C8900CA4553 /* UIColor+Contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Contrast.swift"; path = "External/UIColor+Contrast.swift"; sourceTree = "<group>"; };
+		E79D4DB620F31BA900CA4553 /* UIImage+ColorMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+ColorMask.h"; path = "External/UIImage+ColorMask.h"; sourceTree = "<group>"; };
+		E79D4DB720F31BA900CA4553 /* UIImage+ColorMask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ColorMask.m"; path = "External/UIImage+ColorMask.m"; sourceTree = "<group>"; };
+		E7B6CB1820F15A93007C7EB9 /* Monal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Monal-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7B6CB1920F15A94007C7EB9 /* MLTabBarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLTabBarExtensions.swift; sourceTree = "<group>"; };
 		EB7F14851D3C002B88ABBBF2 /* Pods-Monal Tests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monal Tests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Monal Tests/Pods-Monal Tests.appstore.xcconfig"; sourceTree = "<group>"; };
 		FEB13B684255D50BCF0CE6C6 /* Pods-Monal-OSX.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monal-OSX.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Monal-OSX/Pods-Monal-OSX.appstore.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1108,6 +1120,8 @@
 				2644D4911FF0064C00F46AB5 /* MLChatImageCell.m */,
 				2644D4931FF046E800F46AB5 /* MLBaseCell.h */,
 				2644D4941FF046E800F46AB5 /* MLBaseCell.m */,
+				E7334DB220F3A55400C1F2BE /* ChatSectionHeaderCell.h */,
+				E7334DB320F3A55400C1F2BE /* ChatSectionHeaderCell.m */,
 			);
 			name = ChatViews;
 			sourceTree = "<group>";
@@ -1222,11 +1236,13 @@
 			children = (
 				26E2F7D817C6FD9400C3C8EF /* MLTabBarController.h */,
 				26E2F7D917C6FD9400C3C8EF /* MLTabBarController.m */,
+				E7B6CB1920F15A94007C7EB9 /* MLTabBarExtensions.swift */,
 				26DB52111777C83100B50353 /* Modal views */,
 				26DB52121777EA5100B50353 /* Tab views */,
 				2653EAE51C5B243400ED97F7 /* Main.storyboard */,
 				26158AF01FFA6E4500E53BDC /* MLWebViewController.h */,
 				26158AF11FFA6E4500E53BDC /* MLWebViewController.m */,
+				E7B6CB1820F15A93007C7EB9 /* Monal-Bridging-Header.h */,
 			);
 			name = "View Controllers";
 			path = Classes;
@@ -1396,8 +1412,6 @@
 				26715E5E17650AF900684F3D /* View Controllers */,
 				26DFD4A615666B6C007A1621 /* External */,
 				8D1107310486CEB800E47090 /* Monal-Info.plist */,
-				26D59D9120714F32006F1DEE /* UIColor+Theme.h */,
-				26D59D9220714F32006F1DEE /* UIColor+Theme.m */,
 			);
 			name = "Monal-iOS";
 			sourceTree = "<group>";
@@ -1671,6 +1685,11 @@
 			isa = PBXGroup;
 			children = (
 				26DA16D917C302BC00D0065E /* UIAlertView-Blocks */,
+				E701ACF220F1DAC6006ABD5C /* UIViewController+Extensions.swift */,
+				E79D4DB220F2FED700CA4553 /* RoundedView.swift */,
+				E79D4DB420F30C8900CA4553 /* UIColor+Contrast.swift */,
+				E79D4DB620F31BA900CA4553 /* UIImage+ColorMask.h */,
+				E79D4DB720F31BA900CA4553 /* UIImage+ColorMask.m */,
 			);
 			name = External;
 			sourceTree = "<group>";
@@ -1911,7 +1930,6 @@
 				26B3F1EC17BAED3A0028EA88 /* Crashlytics */,
 				2665C11C1C4ABF7100CC9A04 /* Remove Build number */,
 				2665C11D1C4ABFB500CC9A04 /* Tag Git */,
-				54F3D82A80DCDDBD9AEEC4C1 /* [CP] Embed Pods Frameworks */,
 				009C719E4F0BF68E742BA67B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1932,7 +1950,6 @@
 				260499F41B7314F400D11866 /* Sources */,
 				26049A181B7314F400D11866 /* Frameworks */,
 				26049A191B7314F400D11866 /* Headers */,
-				D8443499BC297E05535B677F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1951,8 +1968,6 @@
 				2630FE2B1AD550C00079F5C0 /* Sources */,
 				2630FE2C1AD550C00079F5C0 /* Frameworks */,
 				2630FE2D1AD550C00079F5C0 /* Resources */,
-				3C88CB9ED26F4FEF2D3191E4 /* [CP] Embed Pods Frameworks */,
-				A05F1B08E9EBAA59F257040B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1998,8 +2013,6 @@
 				266272C21B27DB8100C1CD49 /* Sources */,
 				266272C31B27DB8100C1CD49 /* Frameworks */,
 				266272C41B27DB8100C1CD49 /* Resources */,
-				97B55109CAF0C834A9EC8552 /* [CP] Embed Pods Frameworks */,
-				038D9F574B1C2765BA4C39FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2019,7 +2032,6 @@
 				268BCD52140B25CC0025E4D1 /* Sources */,
 				268BCD53140B25CC0025E4D1 /* Frameworks */,
 				268BCD54140B25CC0025E4D1 /* Headers */,
-				399049A48234F9369FF1F79F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -2037,11 +2049,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ML;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Monal.im;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 33XS7DE5NZ;
+						DevelopmentTeam = V7588NSAN5;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.DataProtection = {
@@ -2071,6 +2084,9 @@
 					266272C51B27DB8100C1CD49 = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 266272B01B27DB8000C1CD49;
+					};
+					268BCD55140B25CC0025E4D1 = {
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -2203,21 +2219,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		038D9F574B1C2765BA4C39FA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Monal-OSXTests/Pods-Monal-OSXTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2649CE4F1C4DE43300CD1E80 /* Build number */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2347,51 +2348,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		399049A48234F9369FF1F79F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jrtplib-static/Pods-jrtplib-static-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3C88CB9ED26F4FEF2D3191E4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Monal Tests/Pods-Monal Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		54F3D82A80DCDDBD9AEEC4C1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Monal/Pods-Monal-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		70921ECBDF172CEC71CF4732 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2446,36 +2402,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Monal-OSX/Pods-Monal-OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		97B55109CAF0C834A9EC8552 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Monal-OSXTests/Pods-Monal-OSXTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A05F1B08E9EBAA59F257040B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Monal Tests/Pods-Monal Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B1FC64CB20BFE29A46BF0152 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2510,21 +2436,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D8443499BC297E05535B677F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jrtplib-static-OSX/Pods-jrtplib-static-OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F09A89DA9D14004C997BF0A9 /* [CP] Embed Pods Frameworks */ = {
@@ -2576,9 +2487,11 @@
 				261A6285176C156500059090 /* ActiveChatsViewController.m in Sources */,
 				26D51CDC1E2674D700141E04 /* NXOAuth2FileStreamWrapper.m in Sources */,
 				26B2A4F31B73097500272E63 /* DDFileLogger.m in Sources */,
+				E79D4DB820F31BA900CA4553 /* UIImage+ColorMask.m in Sources */,
 				2609B5291FD5B26800F09FA1 /* MLSplitViewDelegate.m in Sources */,
 				261A6288176C157D00059090 /* MLDisplaySettingsViewController.m in Sources */,
 				261A628B176C159000059090 /* AccountsViewController.m in Sources */,
+				E7B6CB1B20F165B6007C7EB9 /* MLTabBarExtensions.swift in Sources */,
 				261A628E176C15AD00059090 /* ChatLogsViewController.m in Sources */,
 				26FB468F18B2755A0043094F /* IPAddress.m in Sources */,
 				26FE3BCB1C61A6C3003CC230 /* MLResizingTextView.m in Sources */,
@@ -2603,6 +2516,7 @@
 				26BDECDC1867B7790018670D /* CallViewController.m in Sources */,
 				261AC91D1788A49C00E05657 /* ParsePresence.m in Sources */,
 				261B29341FECBBF1001C5CF4 /* ParseFailed.m in Sources */,
+				E701ACF320F1DAC6006ABD5C /* UIViewController+Extensions.swift in Sources */,
 				262797AF178A577300B85D94 /* MLContactCell.m in Sources */,
 				26347D861790FFDE006FF64F /* MLInfoCell.m in Sources */,
 				26B2A4E91B73097500272E63 /* CLIColor.m in Sources */,
@@ -2615,17 +2529,19 @@
 				26B2A4F71B73097500272E63 /* DDTTYLogger.m in Sources */,
 				262D9EA717921169009292B4 /* ParseMessage.m in Sources */,
 				262D9EAA17921E82009292B4 /* XMPPMessage.m in Sources */,
+				E79D4DB320F2FED700CA4553 /* RoundedView.swift in Sources */,
 				260283861D8DEFC1001DD6B8 /* MLPreviewObject.m in Sources */,
 				26D51CCE1E2674D700141E04 /* NSURL+NXOAuth2.m in Sources */,
+				E7334DB420F3A55400C1F2BE /* ChatSectionHeaderCell.m in Sources */,
 				26D59D9020711969006F1DEE /* MLEditGroupViewController.m in Sources */,
 				26EE8B1C179B55D2006781F3 /* ParseChallenge.m in Sources */,
 				26C3EDF71A8072D5000E6331 /* ParseEnabled.m in Sources */,
+				E79D4DB520F30C8900CA4553 /* UIColor+Contrast.swift in Sources */,
 				26B2A4F91B73097500272E63 /* DDContextFilterLogFormatter.m in Sources */,
 				26EE8B1F179B67FA006781F3 /* MLNotificationManager.m in Sources */,
 				26D51CE21E2674D700141E04 /* NXOAuth2Request.m in Sources */,
 				26EE8B22179B7B0E006781F3 /* SlidingMessageViewController.m in Sources */,
 				26D51CCA1E2674D700141E04 /* NSData+NXOAuth2.m in Sources */,
-				26D59D9320714F32006F1DEE /* UIColor+Theme.m in Sources */,
 				261E672B179E27BE00CB493E /* ParseFailure.m in Sources */,
 				26B2A4F51B73097500272E63 /* DDLog.m in Sources */,
 				26AAE285179F7B0200271345 /* MLSettingCell.m in Sources */,
@@ -2873,6 +2789,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D9328A93187B01B20E88F29 /* Pods-Monal.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -2880,9 +2797,11 @@
 				CODE_SIGN_ENTITLEMENTS = Monal.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 33XS7DE5NZ;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V7588NSAN5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2899,14 +2818,17 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Monal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = G7YU7X7KRJ.SworIM;
+				PRODUCT_BUNDLE_IDENTIFIER = ipse.SworIM;
 				PRODUCT_NAME = Monal;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/Monal-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -3015,6 +2937,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6253B2B3FE987619C2714CF5 /* Pods-Monal Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3042,6 +2965,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "im.monal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -3051,6 +2975,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8C2F3F80367A8A1D3C24092 /* Pods-Monal Tests.adhoc.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3085,6 +3010,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "im.monal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3096,6 +3022,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB7F14851D3C002B88ABBBF2 /* Pods-Monal Tests.appstore.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -3130,6 +3057,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "im.monal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3176,6 +3104,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = im.Monal.MonalOSX;
 				PRODUCT_NAME = Monal;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -3229,6 +3158,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = im.Monal.MonalOSX;
 				PRODUCT_NAME = Monal;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -3281,6 +3211,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = im.Monal.MonalOSX;
 				PRODUCT_NAME = Monal;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -3320,6 +3251,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "im.Monal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -3367,6 +3299,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "im.Monal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -3414,6 +3347,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "im.Monal.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
@@ -3430,11 +3364,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -3456,12 +3392,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PROVISIONING_PROFILE = "C87D7BC2-2AC9-4ED4-945E-692EB563956A";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C87D7BC2-2AC9-4ED4-945E-692EB563956A";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = AppStore;
@@ -3470,16 +3407,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ADFC4F2D8AFC07D6C84B0961 /* Pods-Monal.appstore.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Monal.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 33XS7DE5NZ;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V7588NSAN5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3491,14 +3431,17 @@
 				GCC_PREFIX_HEADER = SworIM_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Monal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = G7YU7X7KRJ.SworIM;
+				PRODUCT_BUNDLE_IDENTIFIER = ipse.SworIM;
 				PRODUCT_NAME = Monal;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/Monal-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 			};
 			name = AppStore;
 		};
@@ -3506,7 +3449,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 861E9C836D3317B11641B333 /* Pods-jrtplib-static.appstore.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Anurodh Pokharel (33XS7DE5NZ)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -3519,6 +3464,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Debug\"",
@@ -3530,6 +3476,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/jrtplib-static-Bridging-Header.h";
+				SWIFT_VERSION = 4;
 			};
 			name = AppStore;
 		};
@@ -3537,7 +3485,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 67334C3FACBBF127DFE076DF /* Pods-jrtplib-static.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				EXECUTABLE_PREFIX = lib;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -3553,6 +3503,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Debug\"",
@@ -3562,6 +3513,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/jrtplib-static-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4;
 			};
 			name = Debug;
 		};
@@ -3574,11 +3528,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -3600,12 +3556,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PROVISIONING_PROFILE = "85C76911-58E8-4598-8FDE-6FFEB6E3ACFB";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "85C76911-58E8-4598-8FDE-6FFEB6E3ACFB";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Adhoc;
@@ -3614,6 +3571,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1CB94D0245DE1717B2AA3064 /* Pods-Monal.adhoc.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -3621,9 +3579,11 @@
 				CODE_SIGN_ENTITLEMENTS = Monal.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 33XS7DE5NZ;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = V7588NSAN5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3635,14 +3595,17 @@
 				GCC_PREFIX_HEADER = SworIM_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Monal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				LLVM_LTO = NO;
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = G7YU7X7KRJ.SworIM;
+				PRODUCT_BUNDLE_IDENTIFIER = ipse.SworIM;
 				PRODUCT_NAME = Monal;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/Monal-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Adhoc;
 		};
@@ -3650,7 +3613,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31A80863B17A9EB9D4C08364 /* Pods-jrtplib-static.adhoc.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Anurodh Pokharel (33XS7DE5NZ)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -3663,6 +3628,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Debug\"",
@@ -3674,6 +3640,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Classes/jrtplib-static-Bridging-Header.h";
+				SWIFT_VERSION = 4;
 			};
 			name = Adhoc;
 		};
@@ -3686,11 +3654,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -3711,13 +3681,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "3AD01710-97E2-42FE-8BA4-2A639002E1AF";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3AD01710-97E2-42FE-8BA4-2A639002E1AF";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;

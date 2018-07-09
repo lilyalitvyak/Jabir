@@ -17,7 +17,7 @@
 
 #import "SAMKeychain.h"
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 static const int pingFreqencyMinutes =1;
 
 NSString *const kXmppAccount= @"xmppAccount";

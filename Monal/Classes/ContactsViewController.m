@@ -35,7 +35,7 @@
 @implementation ContactsViewController
 
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 
 #pragma mark view life cycle
 - (void)viewDidLoad

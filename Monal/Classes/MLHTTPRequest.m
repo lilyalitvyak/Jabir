@@ -8,10 +8,10 @@
 
 #import "MLHTTPRequest.h"
 
-#import "DDLog.h"
+#import "DDLogMacros.h"
 
 
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const int ddLogLevel = DDLogLevelVerbose;
 
 @interface MLHTTPRequest ()
 

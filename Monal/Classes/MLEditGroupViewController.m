@@ -11,7 +11,6 @@
 #import "SAMKeychain.h"
 #import "MLSwitchCell.h"
 #import "MLTextInputCell.h"
-#import "UIColor+Theme.h"
 #import "MLButtonCell.h"
 #import "MLXMPPManager.h"
 

@@ -6,5 +6,8 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
+    #import "MLConstants.h"
+    #import "Monal-Swift.h"
+    #import "MTKObserving.h"
 #endif
 

@@ -1,4 +1,5 @@
 PODS:
+  - Block-KVO (3.0)
   - Crashlytics (3.9.3):
     - Fabric (~> 1.7.2)
   - CWStatusBarNotification (2.3.5)
@@ -19,6 +20,7 @@ PODS:
   - TPCircularBuffer (1.5)
 
 DEPENDENCIES:
+  - Block-KVO (from `https://github.com/Tricertops/Block-KVO.git`)
   - Crashlytics
   - CWStatusBarNotification (~> 2.3.5)
   - Dropbox-iOS-SDK
@@ -31,11 +33,33 @@ DEPENDENCIES:
   - Sparkle
   - TPCircularBuffer
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Crashlytics
+    - CWStatusBarNotification
+    - DACircularProgress
+    - Dropbox-iOS-SDK
+    - Dropbox-OSX-SDK
+    - Fabric
+    - MBProgressHUD
+    - SAMKeychain
+    - SDWebImage
+    - Sparkle
+    - TPCircularBuffer
+
 EXTERNAL SOURCES:
+  Block-KVO:
+    :git: https://github.com/Tricertops/Block-KVO.git
   MWPhotoBrowser:
     :podspec: https://raw.githubusercontent.com/moinku07/MWPhotoBrowser/master/MWPhotoBrowser.podspec
 
+CHECKOUT OPTIONS:
+  Block-KVO:
+    :commit: 520a560fb8b50b1605ac845c03c1b7be11639189
+    :git: https://github.com/Tricertops/Block-KVO.git
+
 SPEC CHECKSUMS:
+  Block-KVO: 6e489d53756d5cb03128ed420fb1f1085522007f
   Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
   CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
@@ -49,6 +73,6 @@ SPEC CHECKSUMS:
   Sparkle: 06ea33170007c5937ee54da481b4481af98fac79
   TPCircularBuffer: 5196b690383e7bc54771e2f26e10c17cd928bd22
 
-PODFILE CHECKSUM: 34d5af406a88c931c717b9c0f9fe4d9029e2e21e
+PODFILE CHECKSUM: c00eeb7a26f7add192f7b63454a8e29a68487bd5
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

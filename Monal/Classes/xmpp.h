@@ -88,7 +88,6 @@ extern NSString *const kXMPPPresence;
     NSArray* _stanzaTypes;
     
     BOOL _startTLSComplete;
-    BOOL _streamHasSpace;
 
     //does not reset at disconnect
     BOOL _loggedInOnce;

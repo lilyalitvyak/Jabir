@@ -90,7 +90,7 @@ extern NSString *const kMessageTypeStatus;
 -(void) offlineContactsWithCompletion: (void (^)(NSMutableArray *))completion;
 
 #pragma mark Ver string and Capabilities
--(BOOL) setResourceVer:(ParsePresence*)presenceObj forAccount: (NSString*) accountNo;
+//-(BOOL) setResourceVer:(ParsePresence*)presenceObj forAccount: (NSString*) accountNo;
 -(NSArray*) capsforVer:(NSString*) verString;
 -(NSString*)getVerForUser:(NSString*)user Resource:(NSString*) resource;
 
@@ -184,7 +184,7 @@ extern NSString *const kMessageTypeStatus;
 /**
   checks to see if there is a message with the provided messageid. will return YES if the messageid exists for this account and contact
  */
--(void) hasMessageForId:(NSString*) messageid toContact:(NSString *) contact onAccount:(NSString *) accountNo andCompletion: (void (^)(BOOL))completion;
+-(void)hasMessageForId:(NSString*)messageid messageFrom:(NSString *)from onAccount:(NSString *)accountNo andCompletion:(void (^)(BOOL))completion;
 
 /*
  Marks a message as delivered. When we know its been sent out on the wire
