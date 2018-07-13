@@ -1,0 +1,189 @@
+
+/* Class = "UILabel"; text = "Delivered"; ObjectID = "0C4-4V-7mE"; */
+"0C4-4V-7mE.text" = "Delivered";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "0CY-WL-e75"; */
+"0CY-WL-e75.text" = "Имя";
+
+/* Class = "UILabel"; text = "A Status message would go here. That is correct, a status message. "; ObjectID = "15o-hp-DgI"; */
+"15o-hp-DgI.text" = "A Status message would go here. That is correct, a status message. ";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "1Hw-bc-mNT"; */
+"1Hw-bc-mNT.title" = "Root View Controller";
+
+/* Class = "UIButton"; normalTitle = "Add Contact"; ObjectID = "21P-WC-8yr"; */
+"21P-WC-8yr.normalTitle" = "Add Contact";
+
+/* Class = "UITableViewController"; title = "Chat Log"; ObjectID = "3gZ-1D-g86"; */
+"3gZ-1D-g86.title" = "Лог чата";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "4yZ-Nr-4ym"; */
+"4yZ-Nr-4ym.text" = "Title";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "8S0-Vz-5yv"; */
+"8S0-Vz-5yv.title" = "Закрыть";
+
+/* Class = "UILabel"; text = "Calling"; ObjectID = "9zt-5x-vSJ"; */
+"9zt-5x-vSJ.text" = "Calling";
+
+/* Class = "UIBarButtonItem"; title = "Previous"; ObjectID = "AtF-5m-xfT"; */
+"AtF-5m-xfT.title" = "Previous";
+
+/* Class = "UITabBarItem"; title = "Contacts"; ObjectID = "BMR-kX-lR2"; */
+"BMR-kX-lR2.title" = "Contacts";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Bqn-Y6-U05"; */
+"Bqn-Y6-U05.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Accounts"; ObjectID = "GM4-e8-f1D"; */
+"GM4-e8-f1D.title" = "Аккаунты";
+
+/* Class = "UITableViewController"; title = "Edit Group Chat"; ObjectID = "GpF-k7-Z6D"; */
+"GpF-k7-Z6D.title" = "Изменить конференцию";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "HOk-DV-nls"; */
+"HOk-DV-nls.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "N8Q-dy-jba"; */
+"N8Q-dy-jba.normalTitle" = "Cancel";
+
+/* Class = "UIBarButtonItem"; title = "Previous"; ObjectID = "OxW-Yc-5ky"; */
+"OxW-Yc-5ky.title" = "Previous";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "PI2-N1-aLJ"; */
+"PI2-N1-aLJ.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Join Group"; ObjectID = "Q7I-qj-4zk"; */
+"Q7I-qj-4zk.normalTitle" = "Join Group";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "R3T-hy-2aY"; */
+"R3T-hy-2aY.title" = "Закрыть";
+
+/* Class = "UINavigationItem"; title = "Chats"; ObjectID = "RRa-hC-xrf"; */
+"RRa-hC-xrf.title" = "Чаты";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ra0-Eo-cAh"; */
+"Ra0-Eo-cAh.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "TJt-Kl-UDV"; */
+"TJt-Kl-UDV.title" = "Сохранить";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "TMS-52-ORP"; */
+"TMS-52-ORP.title" = "Done";
+
+/* Class = "UITableViewController"; title = "Account Edit"; ObjectID = "Tus-3k-aPR"; */
+"Tus-3k-aPR.title" = "Account Edit";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VFO-tq-wdS"; */
+"VFO-tq-wdS.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "VJW-A6-Zpp"; */
+"VJW-A6-Zpp.title" = "Item";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "WlK-KG-Z5M"; */
+"WlK-KG-Z5M.text" = "Date";
+
+/* Class = "UIBarButtonItem"; title = "back"; ObjectID = "X4w-7c-zDu"; */
+"X4w-7c-zDu.title" = "back";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Xld-jv-Isd"; */
+"Xld-jv-Isd.text" = "Дата";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "YtW-zK-Qze"; */
+"YtW-zK-Qze.title" = "Settings";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aLC-lq-fGM"; */
+"aLC-lq-fGM.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Call"; ObjectID = "apJ-s8-Bws"; */
+"apJ-s8-Bws.title" = "Call";
+
+/* Class = "UINavigationItem"; title = "Display Settings"; ObjectID = "bRa-lQ-kQr"; */
+"bRa-lQ-kQr.title" = "Display Settings";
+
+/* Class = "UIBarButtonItem"; title = "Log out All"; ObjectID = "cBo-1F-HEA"; */
+"cBo-1F-HEA.title" = "Log out All";
+
+/* Class = "UISplitViewController"; title = "Settings"; ObjectID = "dgM-uB-Aap"; */
+"dgM-uB-Aap.title" = "Settings";
+
+/* Class = "UITabBarItem"; title = "Group"; ObjectID = "fre-oh-ysK"; */
+"fre-oh-ysK.title" = "Group";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "gFd-bu-COM"; */
+"gFd-bu-COM.title" = "Settings";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "gy3-P9-g7W"; */
+"gy3-P9-g7W.title" = "Done";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hhb-qK-IPe"; */
+"hhb-qK-IPe.text" = "Label";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "iib-jt-Rte"; */
+"iib-jt-Rte.text" = "name";
+
+/* Class = "UIButton"; normalTitle = "Call (Beta)"; ObjectID = "jga-0u-vTT"; */
+"jga-0u-vTT.normalTitle" = "Call (Beta)";
+
+/* Class = "UITabBarItem"; title = "Chats"; ObjectID = "jh7-be-VPo"; */
+"jh7-be-VPo.title" = "Chats";
+
+/* Class = "UINavigationItem"; title = "Group Chat"; ObjectID = "k0T-5X-FQu"; */
+"k0T-5X-FQu.title" = "Group Chat";
+
+/* Class = "UITableViewController"; title = "Settings"; ObjectID = "kjF-U7-P8y"; */
+"kjF-U7-P8y.title" = "Settings";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "llX-Nf-F6I"; */
+"llX-Nf-F6I.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "mLa-XU-o1Q"; */
+"mLa-XU-o1Q.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Delivered"; ObjectID = "mM6-k0-MKY"; */
+"mM6-k0-MKY.text" = "Delivered";
+
+/* Class = "UITableViewController"; title = "Notificaions"; ObjectID = "nPR-ET-sg3"; */
+"nPR-ET-sg3.title" = "Notificaions";
+
+/* Class = "UINavigationItem"; title = "Account Edit"; ObjectID = "pa7-vQ-Yz3"; */
+"pa7-vQ-Yz3.title" = "Account Edit";
+
+/* Class = "UINavigationItem"; title = "Contacts"; ObjectID = "qsR-dX-TO1"; */
+"qsR-dX-TO1.title" = "Contacts";
+
+/* Class = "UIBarButtonItem"; title = "Reconnect All"; ObjectID = "r7s-58-k2m"; */
+"r7s-58-k2m.title" = "Reconnect All";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "rF7-34-0sc"; */
+"rF7-34-0sc.text" = "Detail";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "rLQ-yk-GnZ"; */
+"rLQ-yk-GnZ.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "sff-9g-z31"; */
+"sff-9g-z31.text" = "Detail";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "uDg-Hw-FvA"; */
+"uDg-Hw-FvA.text" = "Date";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "vKm-u5-p5y"; */
+"vKm-u5-p5y.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "vWM-SI-3lf"; */
+"vWM-SI-3lf.text" = "Date";
+
+/* Class = "UINavigationItem"; title = "Add Contact"; ObjectID = "w0d-HZ-N0s"; */
+"w0d-HZ-N0s.title" = "Add Contact";
+
+/* Class = "UINavigationItem"; title = "Accounts With Logs"; ObjectID = "wlb-8I-yzZ"; */
+"wlb-8I-yzZ.title" = "Accounts With Logs";
+
+/* Class = "UINavigationItem"; title = "Edit Group Chat"; ObjectID = "yIE-Ub-BAk"; */
+"yIE-Ub-BAk.title" = "Edit Group Chat";
+
+/* Class = "UITextView"; text = "aaa@bbb.com"; ObjectID = "yIx-La-OpF"; */
+"yIx-La-OpF.text" = "aaa@bbb.com";
+
+// "Chat Logs"
+"Chat Logs" = "Логи чатов";

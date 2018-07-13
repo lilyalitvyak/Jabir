@@ -1,0 +1,146 @@
+/* 
+  Localizable.strings
+  Jabir
+
+  Created by Vladimir Vaskin on 09.07.2018.
+  Copyright © 2018 Jabir.im. All rights reserved.
+*/
+
+
+/* NXOAuth2AccessDeniedErrorCode description */
+"Access denied" = "Нет доступа";
+
+/* NXOAuth2CouldNotRefreshTokenErrorCode description */
+"Access token could not be refreshed" = "Не удается обновить токен";
+
+/* No comment provided by engineer. */
+"Accounts" = "Аккаунты";
+
+/* No comment provided by engineer. */
+"Accounts With Logs" = "Аккаунты с историей";
+
+/* No comment provided by engineer. */
+"Active Chats" = "Активные чаты";
+
+/* No comment provided by engineer. */
+"Add New Account" = "Добавить новый аккаунт";
+
+/* Уведомления */
+"Alerts" = "Уведомления";
+
+/* No comment provided by engineer. */
+"Away" = "Отсутствие";
+
+/* No comment provided by engineer. */
+"Cancel" = "Закрыть";
+
+/* No comment provided by engineer. */
+"Chat Logs" = "История переписок";
+
+/* No comment provided by engineer. */
+"Close All" = "Закрыть все";
+
+/* Облачное хранилище */
+"Cloud Storage" = "Облачное хранилище";
+
+/* No comment provided by engineer. */
+"Connect DropBox" = "Подключить DropBox";
+
+/* No comment provided by engineer. */
+"Contacts" = "Контакты";
+
+/* No comment provided by engineer. */
+"Details" = "Сведения";
+
+/* No comment provided by engineer. */
+"Display" = "Вид";
+
+/* No comment provided by engineer. */
+"Display Settings" = "Настройки вида";
+
+/* No comment provided by engineer. */
+"Do you wish to allow %@ to add you to their contacts?" = "Do you wish to allow %@ to add you to their contacts?";
+
+/* Основные */
+"General" = "Основные";
+
+/* NXOAuth2HTTPErrorDomain description */
+"HTTP Error: %d" = "Ошибка HTTP: %d";
+
+/* NXOAuth2InvalidClientErrorCode description */
+"Invalid OAuth2 Client" = "Invalid OAuth2 Client";
+
+/* NXOAuth2InvalidRequestErrorCode description */
+"Invalid request to OAuth2 Server" = "Invalid request to OAuth2 Server";
+
+/* NXOAuth2InvalidScopeErrorCode description */
+"Invalid scope" = "Invalid scope";
+
+/* No comment provided by engineer. */
+"Log Chats" = "История переписок";
+
+/* No comment provided by engineer. */
+"Message Preview" = "Message Preview";
+
+/* No comment provided by engineer. */
+"Notification Settings" = "Настройки уведомлений";
+
+/* No comment provided by engineer. */
+"Notifications" = "Уведомления";
+
+/* No comment provided by engineer. */
+"Number" = "Номер";
+
+/* No comment provided by engineer. */
+"Offline" = "Оффлайн";
+
+/* No comment provided by engineer. */
+"Offline Contacts" = "Оффлайн контакты";
+
+/* No comment provided by engineer. */
+"Online" = "Онлайн";
+
+/* Присутствие */
+"Presence" = "Присутствие";
+
+/* NXOAuth2RedirectURIMismatchErrorCode description */
+"Redirect URI mismatch" = "Redirect URI mismatch";
+
+/* No comment provided by engineer. */
+"Remove %@ from contacts?" = "Remove %@ from contacts?";
+
+/* No comment provided by engineer. */
+"Search Users" = "Search Users";
+
+/* No comment provided by engineer. */
+"Show Inline Images" = "Show Inline Images";
+
+/* No comment provided by engineer. */
+"Sort By Status" = "Sort By Status";
+
+/* No comment provided by engineer. */
+"Sound Alerts" = "Sound Alerts";
+
+/* Статус */
+"Status" = "Статус";
+
+/* No comment provided by engineer. */
+"Status Message" = "Status Message";
+
+/* NXOAuth2UnauthorizedClientErrorCode description */
+"Unauthorized Client" = "Unauthorized Client";
+
+/* NXOAuth2UnsupportedResponseTypeErrorCode description */
+"Unsupported response type" = "Unsupported response type";
+
+/* No comment provided by engineer. */
+"Visible" = "Видимость";
+
+/* No comment provided by engineer. */
+"XMPP Priority" = "XMPP Приоритет";
+
+/* No comment provided by engineer. */
+"Yes" = "Да";
+
+/* No comment provided by engineer. */
+"You have been invited to a conversation %@?" = "You have been invited to a conversation %@?";
