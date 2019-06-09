@@ -2,10 +2,11 @@
   Localizable.strings
   Jabir
 
-  Created by Vladimir Vaskin on 09.07.2018.
+  Created by Lilya Litvyak on 09.07.2018.
   Copyright © 2018 Jabir.im. All rights reserved.
 */
 
+"About" = "О программе";
 
 /* NXOAuth2AccessDeniedErrorCode description */
 "Access denied" = "Нет доступа";
@@ -59,7 +60,10 @@
 "Display Settings" = "Настройки вида";
 
 /* No comment provided by engineer. */
-"Do you wish to allow %@ to add you to their contacts?" = "Do you wish to allow %@ to add you to their contacts?";
+"Do you wish to allow %@ to add you to their contacts?" = "Разрешить %@ добавить вас в контакты?";
+
+/* No comment provided by engineer. */
+"Email Support" = "Письмо разработчику";
 
 /* Основные */
 "General" = "Основные";
@@ -75,6 +79,9 @@
 
 /* NXOAuth2InvalidScopeErrorCode description */
 "Invalid scope" = "Invalid scope";
+
+/* No comment provided by engineer. */
+"Log" = "Лог";
 
 /* No comment provided by engineer. */
 "Log Chats" = "История переписок";
@@ -110,28 +117,38 @@
 "Remove %@ from contacts?" = "Remove %@ from contacts?";
 
 /* No comment provided by engineer. */
-"Search Users" = "Search Users";
+"Search Users" = "Поиск пользователей";
+
+"Settings" = "Настройки";
 
 /* No comment provided by engineer. */
-"Show Inline Images" = "Show Inline Images";
+"Show Inline Images" = "Показать встроенные изображения";
 
 /* No comment provided by engineer. */
-"Sort By Status" = "Sort By Status";
+"Sort By Status" = "Сортировать по статусу";
 
 /* No comment provided by engineer. */
-"Sound Alerts" = "Sound Alerts";
+"Sound Alerts" = "Звуковые уведомления";
 
 /* Статус */
 "Status" = "Статус";
 
 /* No comment provided by engineer. */
-"Status Message" = "Status Message";
+"Status Message" = "Сообщение статуса";
+
+/* No comment provided by engineer. */
+"Submit A Bug" = "Сообщить об ошибке";
+
+/* No comment provided by engineer. */
+"Support" = "Поддержка";
 
 /* NXOAuth2UnauthorizedClientErrorCode description */
-"Unauthorized Client" = "Unauthorized Client";
+"Unauthorized Client" = "Неавторизованный клиент";
 
 /* NXOAuth2UnsupportedResponseTypeErrorCode description */
-"Unsupported response type" = "Unsupported response type";
+"Unsupported response type" = "Неподдерживаемый тип ответа";
+
+"Version" = "Версия";
 
 /* No comment provided by engineer. */
 "Visible" = "Видимость";
@@ -143,4 +160,4 @@
 "Yes" = "Да";
 
 /* No comment provided by engineer. */
-"You have been invited to a conversation %@?" = "You have been invited to a conversation %@?";
+"You have been invited to a conversation %@?" = "Вас пригласили в беседу %@?";

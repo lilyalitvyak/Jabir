@@ -68,6 +68,10 @@ extern NSString *const kMessageTypeStatus;
 -(void) executeReader:(NSString*) query andArguments:(NSArray *) args withCompletion: (void (^)(NSMutableArray *))completion;
 -(void) executeNonQuery:(NSString*) query andArguments:(NSArray *) args  withCompletion: (void (^)(BOOL))completion;
 
+// MUC users
+- (void)addMucUser:(NSString*)userName conference:(NSString* )conference forAccount:(NSString*)accountNo;
+- (void)removeMucUser:(NSString*)userName conference:(NSString* )conference forAccount:(NSString*)accountNo;
+- (void)userNamesForConference:(NSString*)conference forAccount:(NSString*)accountNo withCompletion: (void (^)(NSArray *))completion;
 
 // Buddy Commands
 -(void) addContact:(NSString*) contact  forAccount:(NSString*) accountNo fullname:(NSString*)fullName nickname:(NSString*) nickName withCompletion: (void (^)(BOOL))completion;

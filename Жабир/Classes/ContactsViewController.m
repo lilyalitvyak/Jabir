@@ -616,6 +616,7 @@ static const int ddLogLevel = DDLogLevelVerbose;
 {
     if([segue.identifier isEqualToString:@"showConversation"])
     {
+        NSLog(@"------> show chat");
         UINavigationController *nav = segue.destinationViewController;
         chatViewController* chatVC = (chatViewController *)nav.topViewController;
         [chatVC setupWithContact:sender];

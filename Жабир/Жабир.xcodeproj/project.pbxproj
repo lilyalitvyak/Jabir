@@ -392,6 +392,7 @@
 		719B7DFC4F585FB65A7828DD /* libPods-Жабир Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C404A696A6025459C8B96248 /* libPods-Жабир Tests.a */; };
 		CAAF78ACC86D0E2D59659974 /* libPods-jrtplib-static-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B878F234C6D75087415906A /* libPods-jrtplib-static-OSX.a */; };
 		E701ACF320F1DAC6006ABD5C /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E701ACF220F1DAC6006ABD5C /* UIViewController+Extensions.swift */; };
+		E714397C22ACFA09001E859D /* RoomRosterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E714397922ACF9FE001E859D /* RoomRosterViewController.m */; };
 		E728411C20F846D000AD1555 /* MLTabBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E728411A20F845C100AD1555 /* MLTabBarExtensions.swift */; };
 		E7334DB420F3A55400C1F2BE /* ChatSectionHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7334DB320F3A55400C1F2BE /* ChatSectionHeaderCell.m */; };
 		E7334DB720F3ED9E00C1F2BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7334DB920F3ED9E00C1F2BE /* Main.storyboard */; };
@@ -874,6 +875,8 @@
 		CB67568CAD64EE8B113D8A9F /* Pods-Жабир.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Жабир.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Жабир/Pods-Жабир.appstore.xcconfig"; sourceTree = "<group>"; };
 		DB27E1EEB4AE52B66B458E46 /* Pods-Жабир-OSXTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Жабир-OSXTests.appstore.xcconfig"; path = "Pods/Target Support Files/Pods-Жабир-OSXTests/Pods-Жабир-OSXTests.appstore.xcconfig"; sourceTree = "<group>"; };
 		E701ACF220F1DAC6006ABD5C /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "External/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		E714397822ACF9FD001E859D /* RoomRosterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomRosterViewController.h; sourceTree = "<group>"; };
+		E714397922ACF9FE001E859D /* RoomRosterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomRosterViewController.m; sourceTree = "<group>"; };
 		E728411A20F845C100AD1555 /* MLTabBarExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MLTabBarExtensions.swift; path = External/MLTabBarExtensions.swift; sourceTree = "<group>"; };
 		E7334DB220F3A55400C1F2BE /* ChatSectionHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatSectionHeaderCell.h; sourceTree = "<group>"; };
 		E7334DB320F3A55400C1F2BE /* ChatSectionHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatSectionHeaderCell.m; sourceTree = "<group>"; };
@@ -1092,6 +1095,8 @@
 			children = (
 				26761BF31804FBB700D94714 /* RoomListViewController.h */,
 				26761BF41804FBB700D94714 /* RoomListViewController.m */,
+				E714397822ACF9FD001E859D /* RoomRosterViewController.h */,
+				E714397922ACF9FE001E859D /* RoomRosterViewController.m */,
 			);
 			name = Muc;
 			sourceTree = "<group>";
@@ -2646,6 +2651,7 @@
 				26DA16E017C302BC00D0065E /* RIButtonItem.m in Sources */,
 				26DA16E117C302BC00D0065E /* UIActionSheet+Blocks.m in Sources */,
 				2644D4921FF0064C00F46AB5 /* MLChatImageCell.m in Sources */,
+				E714397C22ACFA09001E859D /* RoomRosterViewController.m in Sources */,
 				268821FA19B9233B00AEA46E /* NSString+SqlLite.m in Sources */,
 				2678A98B185A8320003AF53B /* ChatLogAccountDetailViewController.m in Sources */,
 				26D51CCC1E2674D700141E04 /* NSString+NXOAuth2.m in Sources */,

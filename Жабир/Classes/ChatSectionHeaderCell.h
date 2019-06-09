@@ -2,7 +2,7 @@
 //  ChatSectionHeaderCell.h
 //  Jabir
 //
-//  Created by Vladimir Vaskin on 09.07.2018.
+//  Created by Lilya Litvyak on 09.07.2018.
 //  Copyright © 2018 Jabir.im. All rights reserved.
 //
 

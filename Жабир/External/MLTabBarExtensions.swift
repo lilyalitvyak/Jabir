@@ -2,7 +2,7 @@
 //  MLTabBarExtensions.swift
 //  jrtplib-static
 //
-//  Created by Vladimir Vaskin on 07.07.2018.
+//  Created by Lilya Litvyak on 07.07.2018.
 //  Copyright © 2018 Jabir.im. All rights reserved.
 //
 

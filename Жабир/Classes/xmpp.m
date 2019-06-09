@@ -1840,6 +1840,13 @@ static const int ddLogLevel = DDLogLevelVerbose;
                         
                         if(presenceNode.MUC)
                         {
+                            if([presenceNode.type isEqualToString:kpresenceUnavailable])
+                            {
+                                [[DataLayer sharedInstance] removeMucUser:presenceNode.resource conference:presenceNode.user forAccount:self->_accountNo];
+                            } else {
+                                [[DataLayer sharedInstance] addMucUser:presenceNode.resource conference:presenceNode.user forAccount:self->_accountNo];
+                            }
+
                             for (NSString* code in presenceNode.statusCodes) {
                                 if([code isEqualToString:@"201"]) {
                                     //201- created and needs configuration

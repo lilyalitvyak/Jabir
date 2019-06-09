@@ -1,6 +1,6 @@
 ## жабир 
 
-XMPP клиент на основе [Monal](https://github.com/anurodhp/Monal)
+XMPP клиент для iOS на основе [Monal](https://github.com/anurodhp/Monal)
 
 
 

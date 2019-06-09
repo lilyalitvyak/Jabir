@@ -14,6 +14,7 @@
 @interface DataLayer()
 
 @property (nonatomic, strong) NSMutableSet *contactMemory; // where contacts live before they are persisted
+@property (nonatomic, strong) NSMutableSet *mucContactMemory;
 
 @end
 
@@ -764,6 +765,68 @@ static DataLayer *sharedInstance=nil;
     }
 }
 
+- (void)addMucUser:(NSString*)userName conference:(NSString* )conference forAccount:(NSString*)accountNo {
+    NSLog(@"------> ADD MUC userName %@ conference %@ forAccount %@", userName, conference, accountNo);
+    NSString *mucContact = [NSString stringWithFormat:@"%@/%@", conference, userName];
+    
+    dispatch_sync(_contactQueue, ^{
+        if([self.mucContactMemory containsObject:mucContact])
+        {
+            DDLogVerbose(@"контакт уже записывается");
+            return;
+        } else  {
+            [self.mucContactMemory addObject:mucContact];
+        }
+        
+        [self isMucUserInList:userName conference:conference forAccount:accountNo withCompletion:^(BOOL exists) {
+            if(!exists)
+            {
+                NSString *query=[NSString stringWithFormat:@"insert into mucusers ('user_name', 'account_id', 'conference') values(?, ?, ?);"];
+                
+                NSArray *params=@[userName, accountNo, conference];
+                [self executeNonQuery:query  andArguments:params withCompletion:^(BOOL success) {
+                    [self.mucContactMemory removeObject:mucContact];
+                }];
+            } else {
+                [self.mucContactMemory removeObject:mucContact];
+            }
+        }];
+    });
+}
+
+- (void)removeMucUser:(NSString*)userName conference:(NSString* )conference forAccount:(NSString*)accountNo {
+    NSLog(@"------> REM MUC userName %@ conference %@ forAccount %@", userName, conference, accountNo);
+    
+    NSString* query=[NSString stringWithFormat:@"delete from mucusers where user_name=? and account_id=? and conference=?;"];
+    NSArray *params= @[userName, accountNo, conference];
+    
+    [self executeNonQuery:query andArguments:params withCompletion:nil];
+}
+
+
+- (void)userNamesForConference:(NSString*)conference forAccount:(NSString*)accountNo withCompletion: (void (^)(NSArray *))completion
+{
+    NSString* query= query=[NSString stringWithFormat:@"select user_name from mucusers where account_id=? and conference=?"];
+    NSArray *params= @[accountNo, conference];
+    NSLog(@"------> accountNo: %@ conference: %@", accountNo, conference);
+    [self executeReader:query andArguments:params  withCompletion:^(NSArray * toReturn) {
+        if(toReturn!=nil)
+        {
+            DDLogVerbose(@"Users count: %lu",  (unsigned long)[toReturn count] );
+            
+        }
+        else
+        {
+            DDLogError(@"mucusers is empty or failed to read");
+        }
+        
+        if(completion) {
+            completion([toReturn mutableArrayValueForKey:@"user_name"]);
+        }
+    }];
+    
+}
+
 #pragma mark Buddy Commands
 
 -(void) addContact:(NSString*) contact  forAccount:(NSString*) accountNo fullname:(NSString*)fullName nickname:(NSString*) nickName withCompletion: (void (^)(BOOL))completion
@@ -903,7 +966,6 @@ static DataLayer *sharedInstance=nil;
     }];
      
 }
-
 
 -(NSArray*) searchContactsWithString:(NSString*) search
 {
@@ -1233,6 +1295,29 @@ static DataLayer *sharedInstance=nil;
     }];
 }
 
+-(void)isMucUserInList:(NSString*)userName conference:(NSString* )conference forAccount:(NSString*)accountNo withCompletion: (void (^)(BOOL))completion
+{
+    NSString* query=[NSString stringWithFormat:@"select count(user_name) from mucusers where account_id=? and user_name=? and conference=? "];
+    NSArray *params=@[accountNo, userName, conference];
+    
+    [self executeScalar:query andArguments:params withCompletion:^(NSObject *value) {
+        
+        NSNumber* count=(NSNumber*)value;
+        BOOL toreturn=NO;
+        if(count!=nil)
+        {
+            NSInteger val=[count integerValue];
+            if(val>0) {
+                toreturn= YES;
+            }
+            
+        }
+        if(completion)
+        {
+            completion(toreturn);
+        }
+    }];
+}
 
 -(void) isContactInList:(NSString*) buddy forAccount:(NSString*) accountNo withCompletion: (void (^)(BOOL))completion
 {
@@ -1934,6 +2019,7 @@ static DataLayer *sharedInstance=nil;
 {
     
      self.contactMemory = [[NSMutableSet alloc] init];
+     self.mucContactMemory = [[NSMutableSet alloc] init];
     
     _dbQueue = dispatch_queue_create(kJabirDBQueue, DISPATCH_QUEUE_SERIAL);
     _contactQueue = dispatch_queue_create(kJabirContactQueue, DISPATCH_QUEUE_SERIAL);

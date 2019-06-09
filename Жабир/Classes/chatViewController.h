@@ -41,6 +41,8 @@
 @property (nonatomic, weak) IBOutlet UIView* inputContainerView;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint* inputContainerHeight;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint* inputContainerBottom;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem* roomRosterButtonItem;
+@property (nonatomic, weak) IBOutlet UINavigationItem *navigationItem;
 
 @property (nonatomic, strong) NSString* day;
 @property (nonatomic,strong)  NSString* contactName;

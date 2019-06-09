@@ -33,21 +33,27 @@ NS_ENUM(NSInteger, kSettingSection)
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.sections =@[@"App", @"Support", @"About"];
+    self.sections =@[NSLocalizedString(@"App",@""),
+                     NSLocalizedString(@"Support",@""),
+                     NSLocalizedString(@"About",@"")];
     
     self.appRows=@[NSLocalizedString(@"Accounts", @""),
                    NSLocalizedString(@"Notifications", @""),
                    NSLocalizedString(@"Display", @""),
                    NSLocalizedString(@"Chat Logs", @"")];  //@"Cloud Storage"
-    self.supportRows=@[@"Email Support", @"Submit A Bug"];
+    self.supportRows=@[NSLocalizedString(@"Email Support",@""),
+                       NSLocalizedString(@"Submit A Bug",@"")];
 #ifdef DEBUG
-    self.aboutRows=@[@"About", @"Version",  @"Log" ];
+    self.aboutRows=@[NSLocalizedString(@"About",@""),
+                     NSLocalizedString(@"Version",@""),
+                     NSLocalizedString(@"Log",@"")];
 #else
-    self.aboutRows=@[@"About", @"Version"];
+    self.aboutRows=@[NSLocalizedString(@"About",@""),
+                     NSLocalizedString(@"Version",@"")];
 #endif
     self.splitViewController.preferredDisplayMode=UISplitViewControllerDisplayModeAllVisible;
     
-    
+    self.navigationItem.title=NSLocalizedString(@"Settings",@"");
 }
 
 - (void)didReceiveMemoryWarning {
@@ -101,13 +107,13 @@ NS_ENUM(NSInteger, kSettingSection)
             break;
         }
         case kSettingSectionAbout: {
-            if(indexPath.row==3)
+            if(indexPath.row==1)
             {
                 NSDictionary* infoDict = [[NSBundle mainBundle] infoDictionary];
                 NSString* version = [infoDict objectForKey:@"CFBundleShortVersionString"];
                 NSString* build = [infoDict objectForKey:@"CFBundleVersion"];
                 
-                cell.textLabel.text= [NSString stringWithFormat:@"Version  %@ (%@)",version, build];
+                cell.textLabel.text= [NSString stringWithFormat:@"%@  %@ (%@)",self.aboutRows[indexPath.row], version, build];
                 cell.accessoryType=UITableViewCellAccessoryNone;
             } else {
                 cell.textLabel.text= self.aboutRows[indexPath.row];
@@ -185,7 +191,7 @@ NS_ENUM(NSInteger, kSettingSection)
                     [self performSegueWithIdentifier:@"showAbout" sender:self];
                     break;
                     
-                case 1:
+                case 2:
                     [self performSegueWithIdentifier:@"showLogs" sender:self];
                     break;
                
